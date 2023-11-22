@@ -6,5 +6,6 @@ public class Main {
         System.out.println("VÅR GRUPPUPPGIFT TOMTENSVERKSTAD");
         System.out.println("test");
         Login login = new Login();
+        TomtensView tomtensView = new TomtensView();
     }
 }
