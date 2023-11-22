@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class TomtensView {
+public class TomtensView extends JFrame{
     JFrame tomtensViewFrame;
     private JPanel tomtensVeiw;
     private JButton lagersaldoButton;
