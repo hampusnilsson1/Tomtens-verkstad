@@ -19,10 +19,10 @@ public class TomtensView extends JFrame{
 
     public TomtensView(){
         tomtensViewFrame = new JFrame();
+        tomtensViewFrame.setDefaultCloseOperation(EXIT_ON_CLOSE);
         tomtensViewFrame.setSize(400, 600);
         tomtensViewFrame.setVisible(true);
         tomtensViewFrame.setContentPane(tomtensVeiw);
-        tomtensViewFrame.setResizable(false);
 
 
         lagersaldoButton.addActionListener(new ActionListener() {
