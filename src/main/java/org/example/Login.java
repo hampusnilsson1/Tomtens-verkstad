@@ -12,6 +12,7 @@ public class Login {
     private JCheckBox jagHarVaritSnällCheckBox;
     private JButton logInButton;
     private JButton registreraButton;
+    private JLabel loginMessage;
 
     private String användarnamn = "Julen";
     private String lösenord = "2023";
@@ -27,17 +28,16 @@ public class Login {
         logInButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String användarnamn = användarField.getText();
-                String lösenord = lösenordField.getText();
 
-                boolean kontrolleraAnvändare;
+
+
                 if(användarField.getText().equals(användarnamn)
                     && lösenordField.getText().equals(lösenord)){
-                    logInFrame.setVisible(false);
                     TomtensView tomtensView = new TomtensView();
-                    tomtensView.setVisible(true);
                 }else {
-                    System.out.println("Fel inloggningsuppgifter");
+                    loginMessage.setText("Fel inloggningsuppgifter");
+                    användarField.setText("");
+                    lösenordField.setText("");
                 }
             }
         });
