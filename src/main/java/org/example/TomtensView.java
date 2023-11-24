@@ -9,12 +9,12 @@ public class TomtensView extends JFrame{
     private JPanel tomtensVeiw;
     private JButton lagersaldoButton;
     private JButton loggaUtButton;
-    private JList list1Barn;
     private JPanel JPBarn;
     private JPanel JPButtLager;
     private JPanel JPÖnskeLista;
     private JPanel JPButtLoggaUt;
     private JList list1leksaker;
+    private JScrollPane kidsName;
 
 
     public TomtensView(){
@@ -34,6 +34,8 @@ public class TomtensView extends JFrame{
         loggaUtButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                tomtensViewFrame.dispose();
+                new Login();
 
             }
         });

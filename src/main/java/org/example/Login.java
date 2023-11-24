@@ -3,19 +3,23 @@ package org.example;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Arrays;
+import java.util.HashMap;
 
 public class Login {
     JFrame logInFrame;
     private JPanel loginPanel;
     private JTextField användarField;
-    private JTextField lösenordField;
     private JCheckBox jagHarVaritSnällCheckBox;
     private JButton logInButton;
     private JButton registreraButton;
     private JLabel loginMessage;
+    private JPasswordField passwordField1;
+    private String adminAnvändarnamn = "Julen";
+    private String adminLösenord = "2023";
+    HashMap<String, String> användarUppgifter = new HashMap<>();
 
-    private String användarnamn = "Julen";
-    private String lösenord = "2023";
+
 
     public Login()
     {
@@ -25,27 +29,37 @@ public class Login {
         logInFrame.setContentPane(loginPanel);
         logInFrame.setResizable(false);
         logInFrame.setVisible(true);
+
         logInButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
+         @Override
+          public void actionPerformed(ActionEvent e) {
+             String användarnamn = användarField.getText();
+             String lösenord = new String(passwordField1.getPassword());
+              if (användarnamn.equals(adminAnvändarnamn) && lösenord.equals(adminLösenord)) {
+                  new TomtensView();
+              } else if(jagHarVaritSnällCheckBox.isSelected()) {
+                 if (användarUppgifter.containsKey(användarnamn) && användarUppgifter.get(användarnamn).equals(lösenord)) {
+                     loginMessage.setText("You are logged in!");
+                     new TomtensView();
 
+                 } else {
+                     JOptionPane.showMessageDialog(null, "Fel inloggningsuppgifter!");
+                     användarField.setText("");
+                     passwordField1.setText("");
+                 }
+             }else{
+                 JOptionPane.showMessageDialog(null, "Du måste kryssa i 'Jag har varit snäll' för att logga in!");
+                 användarField.setText("");
+                 passwordField1.setText("");
+             }
 
-
-                if(användarField.getText().equals(användarnamn)
-                    && lösenordField.getText().equals(lösenord)){
-                    TomtensView tomtensView = new TomtensView();
-                }else {
-                    loginMessage.setText("Fel inloggningsuppgifter");
-                    användarField.setText("");
-                    lösenordField.setText("");
-                }
-            }
+          }
         });
         registreraButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
             }
         });
+
     }
 }

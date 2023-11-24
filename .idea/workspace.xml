@@ -8,9 +8,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Login.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TomtensView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TomtensView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TomtensView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TomtensView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +83,14 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1700679800970</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Fönster som visar barn och deras önskelistor.">
+      <option name="closed" value="true" />
+      <created>1700761776080</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1700761776080</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
