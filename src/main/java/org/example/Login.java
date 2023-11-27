@@ -32,12 +32,12 @@ public class Login {
         logInButton.addActionListener(new ActionListener() {
          @Override
           public void actionPerformed(ActionEvent e) {
-             String användarnamn = userField.getText();
-             String lösenord = new String(passwordField1.getPassword());
-              if (användarnamn.equals(adminUserName) && lösenord.equals(adminPassword)) {
+             String Username = userField.getText();
+             String Password = new String(passwordField1.getPassword());
+              if (Username.equals(adminUserName) && Password.equals(adminPassword)) {
                   new TomtensView();
 
-              } else if(userData.contains(användarnamn) && userData.get(Integer.parseInt(användarnamn)).equals(lösenord)) {
+              } else if(userData.contains(Username) && userData.get(Integer.parseInt(Username)).equals(Password)) {
                  if (iHaveBeenGoodCheckBox.isSelected()) {
 
                  } else {
