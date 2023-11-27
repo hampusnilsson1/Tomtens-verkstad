@@ -30,7 +30,7 @@
           <text value="Vi uppfyller dina önskningar!"/>
         </properties>
       </component>
-      <component id="d8883" class="javax.swing.JTextField" binding="användarField">
+      <component id="d8883" class="javax.swing.JTextField" binding="userField">
         <constraints>
           <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -62,7 +62,7 @@
           <text value="Lösenord:"/>
         </properties>
       </component>
-      <component id="91862" class="javax.swing.JCheckBox" binding="jagHarVaritSnällCheckBox" default-binding="true">
+      <component id="91862" class="javax.swing.JCheckBox" binding="iHaveBeenGoodCheckBox" default-binding="true">
         <constraints>
           <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
