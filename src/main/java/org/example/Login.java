@@ -36,19 +36,20 @@ public class Login {
              String användarnamn = användarField.getText();
              String lösenord = new String(passwordField1.getPassword());
               if (användarnamn.equals(adminAnvändarnamn) && lösenord.equals(adminLösenord)) {
+                  loginMessage.setText ("Fel inloggningsuppgifter!");
                   new TomtensView();
-              } else if(jagHarVaritSnällCheckBox.isSelected()) {
-                 if (användarUppgifter.containsKey(användarnamn) && användarUppgifter.get(användarnamn).equals(lösenord)) {
-                     loginMessage.setText("You are logged in!");
+
+              } else if(användarUppgifter.containsKey(användarnamn) && användarUppgifter.get(användarnamn).equals(lösenord)) {
+                 if (jagHarVaritSnällCheckBox.isSelected()) {
                      new TomtensView();
 
                  } else {
-                     JOptionPane.showMessageDialog(null, "Fel inloggningsuppgifter!");
+                    loginMessage.setText("Vänligen kryssa i 'Jag har varit snäll' för att logga in!");
                      användarField.setText("");
                      passwordField1.setText("");
                  }
              }else{
-                 JOptionPane.showMessageDialog(null, "Du måste kryssa i 'Jag har varit snäll' för att logga in!");
+                 loginMessage.setText("Fel inloggningsuppgifter!");
                  användarField.setText("");
                  passwordField1.setText("");
              }
