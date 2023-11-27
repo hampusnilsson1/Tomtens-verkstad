@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82c95828-5d63-4c43-85e2-c3b7bb2146f1" name="Changes" comment="Ändrat inlogg.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Login.form" afterDir="false" />
+    <list default="true" id="82c95828-5d63-4c43-85e2-c3b7bb2146f1" name="Changes" comment="Gjort några ändringar i Login.java">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,13 +95,21 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1701077218333</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Gjort några ändringar i Login.java">
+      <option name="closed" value="true" />
+      <created>1701078671364</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1701078671364</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fönster som visar barn och deras önskelistor." />
     <MESSAGE value="Login för tomten och registrerade användare." />
     <MESSAGE value="Ändrat inlogg." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ändrat inlogg." />
+    <MESSAGE value="Gjort några ändringar i Login.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gjort några ändringar i Login.java" />
   </component>
 </project>
