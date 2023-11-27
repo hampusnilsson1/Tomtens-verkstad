@@ -50,7 +50,6 @@ public class Login {
                  userField.setText("");
                  passwordField1.setText("");
              }
-
           }
         });
         registreraButton.addActionListener(new ActionListener() {
