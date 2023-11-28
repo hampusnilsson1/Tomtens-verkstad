@@ -1,10 +1,7 @@
-package org.example;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-
-        System.out.println("VÅR GRUPPUPPGIFT TOMTENSVERKSTAD");
-        System.out.println("test");
-        Login login = new Login();
+        Register test = new Register();
     }
 }
