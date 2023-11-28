@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Login {
     JFrame logInFrame;
@@ -16,7 +17,7 @@ public class Login {
     private JPasswordField passwordField1;
     private String adminUserName = "Julen";
     private String adminPassword = "2023";
-    ArrayList<Login> userData = new ArrayList<>();
+    HashMap<String, String> userData = new HashMap<>();
 
 
 
@@ -37,7 +38,7 @@ public class Login {
               if (Username.equals(adminUserName) && Password.equals(adminPassword)) {
                   new TomtensView();
 
-              } else if(userData.contains(Username) && userData.get(Integer.parseInt(Username)).equals(Password)) {
+              } else if(userData.containsKey(Username) && userData.get(Username).equals(Password)) {
                  if (iHaveBeenGoodCheckBox.isSelected()) {
 
                  } else {

@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82c95828-5d63-4c43-85e2-c3b7bb2146f1" name="Changes" comment="Gjort några ändringar i Login.java">
+    <list default="true" id="82c95828-5d63-4c43-85e2-c3b7bb2146f1" name="Changes" comment="Ändrat till engelska">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +45,7 @@
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "260",
     "git-widget-placeholder": "Lotta",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/ASUS/Downloads/OPA23SwingOvningarFacitNovember7/OPA23SwingOvningarFacitNovember7",
+    "last_opened_file_path": "C:/Users/ASUS/OneDrive/Skrivbord/JAVA/Farmvg",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
@@ -102,14 +109,47 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1701078671364</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Gjort några ändringar i Login.java">
+      <option name="closed" value="true" />
+      <created>1701078879441</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1701078879441</updated>
+    </task>
+    <task id="LOCAL−00008" summary="Gjort några ändringar i Login.java">
+      <option name="closed" value="true" />
+      <created>1701078930482</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1701078930482</updated>
+    </task>
+    <task id="LOCAL−00009" summary="Ändrat till engelska">
+      <option name="closed" value="true" />
+      <created>1701082960560</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1701082960560</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fönster som visar barn och deras önskelistor." />
     <MESSAGE value="Login för tomten och registrerade användare." />
     <MESSAGE value="Ändrat inlogg." />
     <MESSAGE value="Gjort några ändringar i Login.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gjort några ändringar i Login.java" />
+    <MESSAGE value="Ändrat till engelska" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ändrat till engelska" />
   </component>
 </project>
