@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -8,6 +10,6 @@ public class Main {
         Login login = new Login();
         Wishlist wishlist = new Wishlist();
         FileHandler fileHandler = new FileHandler();
-
+        Register test = new Register();
     }
 }

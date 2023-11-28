@@ -8,6 +8,13 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FileHandler.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Wish.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wish_list_for_kids.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Register.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.form" afterDir="false" />
@@ -57,9 +64,27 @@
     "git-widget-placeholder": "AntonsBranch",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Skolan/OPA23ProgrammersAndProjects31Oktober",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Programmering/OPA23/Java/InlämningsUppgift3/Tomtens-verkstad/src/main/java/org/example",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="TomtensVerkstad" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="TomtensVerkstad" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
