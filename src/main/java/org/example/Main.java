@@ -1,7 +1,8 @@
-import java.util.ArrayList;
+package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        Register test = new Register();
+        Login login = new Login();
+        Register register = new Register();
     }
 }
