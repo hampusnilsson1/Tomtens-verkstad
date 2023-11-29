@@ -60,6 +60,9 @@ public class Register {
                     System.out.println("id: " + kid.getKidId());
                     System.out.println("name: " + kid.getKidName());
                     System.out.println("PW: " + Password);
+                    PasswordField.setText("");
+                    UsernameField.setText("");
+                    RePasswordField.setText("");
 
                 } 
                 else {
