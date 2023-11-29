@@ -6,6 +6,9 @@ public class Wish {
     String wishName;
     int quantity;
 
+    public Wish(String wishName){
+        this.wishName=wishName;
+    }
     public Wish(int wishId, String wishName, int quantity){
         this.wishId = wishId;
         this.wishName = wishName;

@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.ArrayList;
 
 public class Kid {
@@ -5,7 +7,7 @@ public class Kid {
     private int KidId;
     private String KidName;
     private String KidPassword;
-    private ArrayList<String> KidWishlist;
+    public ArrayList<String> KidWishlist;
 
     public Kid(String KidName, String KidPassword) {
         this.KidId = NextKidId;
@@ -13,6 +15,8 @@ public class Kid {
         this.KidName = KidName;
         this.KidPassword = KidPassword;
     }
+
+
 
     //getters setters
     public void setKidId(int kidId) {

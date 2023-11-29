@@ -4,25 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82c95828-5d63-4c43-85e2-c3b7bb2146f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FileHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Wish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wish_list_for_kids.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Register.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="82c95828-5d63-4c43-85e2-c3b7bb2146f1" name="Changes" comment="Added wishlist + wishlistform. Added functions to add and remove from the wishlist.&#10;&#10;Also modified the wishlist by implementing a predetermined list of selactable wishes the kid user can then add to their own list. The predetermined list comes from a CSV file, and I have added a FileHandler class as well as a Wish class to make the CSV file work together with the wishlist class/form.">
+      <change afterPath="$PROJECT_DIR$/Kids.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Kid.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Kid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Kid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Kid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Kids.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Register$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Register$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Register.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Wish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Wish.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wish.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wish_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wish_list.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,28 +68,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "AntonsBranch",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Skolan/OPA23ProgrammersAndProjects31Oktober",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Programmering/OPA23/Java/InlämningsUppgift3/Tomtens-verkstad/src/main/java/org/example",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="TomtensVerkstad" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="TomtensVerkstad" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -98,5 +85,28 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added wishlist + wishlistform. Added functions to add and remove from the wishlist.&#10;&#10;Also modified the wishlist by implementing a predetermined list of selactable wishes the kid user can then add to their own list. The predetermined list comes from a CSV file, and I have added a FileHandler class as well as a Wish class to make the CSV file work together with the wishlist class/form." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added wishlist + wishlistform. Added functions to add and remove from the wishlist.&#10;&#10;Also modified the wishlist by implementing a predetermined list of selactable wishes the kid user can then add to their own list. The predetermined list comes from a CSV file, and I have added a FileHandler class as well as a Wish class to make the CSV file work together with the wishlist class/form." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

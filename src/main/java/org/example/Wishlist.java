@@ -3,10 +3,7 @@ package org.example;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 
 public class Wishlist {
@@ -21,10 +18,16 @@ public class Wishlist {
     private JList wishlist;
     private JList listOfAvailableWishes;
     private JLabel ErrorMessage;
+    private JButton Savebutton;
+    private JLabel WelcomeLabel;
+    private JLabel wishlistLabel;
     File wishlistFile = new File("wish_list_for_kids.txt");
+    File theKidsOwnWishlist = new File("wish_list.txt");
+    ArrayList<Wish> kidsWishes = new ArrayList<>();
     ArrayList<Wish> wishes = new ArrayList<>();
 
-    public Wishlist() {
+
+    public Wishlist(String enteredUsername) {
         wishList = new JFrame();
         wishList.setSize(500, 500);
         wishList.setVisible(true);
@@ -37,6 +40,41 @@ public class Wishlist {
 
         availableWishes = new DefaultListModel<>();
         listOfAvailableWishes.setModel(availableWishes);
+
+
+
+
+        try {
+            FileReader fileReader = new FileReader(theKidsOwnWishlist);
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+            String line = bufferedReader.readLine();
+            while (line != null) {
+
+                if (line.contains(enteredUsername)){
+
+
+                String[] variables = line.split(",");
+                int u = variables.length;
+
+                for (int i = 1; i < u; i++) {
+                    String wishName = variables[i];
+
+                    Wish wish = new Wish(wishName);
+                    kidsWishes.add(wish);
+                }
+                }
+
+                line = bufferedReader.readLine();
+            }
+            kidWishList();
+        }
+        catch (NumberFormatException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+
 
 
         try {
@@ -62,6 +100,13 @@ public class Wishlist {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
+
+
+
+
+
+
         Add.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -82,6 +127,36 @@ public class Wishlist {
                 ErrorMessage.setText("");
             }
         });
+       /* Savebutton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    FileWriter fileWriter = new FileWriter(theKidsOwnWishlist);
+                    BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+                    FileReader fileReader = new FileReader(theKidsOwnWishlist);
+                    BufferedReader bufferedReader = new BufferedReader(fileReader);
+                    String line = bufferedReader.readLine();
+                    for (int i = 0; i < kidsWishes.size(); i++){
+                        if (line.contains(enteredUsername)){
+                            bufferedWriter.write(enteredUsername+getCSV());
+                        }
+                    }
+
+
+
+                } catch (FileNotFoundException ex) {
+                    throw new RuntimeException(ex);
+                } catch (IOException ex) {
+                    throw new RuntimeException(ex);
+                }
+
+            }
+        }); */
+
+
+
+
+
     }
 
     public void listWishList() {
@@ -90,6 +165,21 @@ public class Wishlist {
         }
     }
 
+    public void kidWishList() {
+        for (Wish kidwish: kidsWishes) {
+            listModel.addElement(kidwish.getWishName());
+        }
+    }
+
+    private String getCSV(){
+        int u = kidsWishes.size();
+        String saveWish = "";
+        for(int i = 0; i <u; i++) {
+            saveWish = saveWish + ",";
+            saveWish = saveWish + kidsWishes.get(u);
+        }
+        return saveWish;
+    }
 
 
 }
