@@ -32,7 +32,11 @@ public class Login {
                 if (parts.length == 3) {
                     String username = parts[1].trim();
                     String password = parts[2].trim();
-                    userCredentials.put(username, password);
+                    if(!username.equals("name")){
+                        Kid kid = new Kid(username,password);
+                        userCredentials.put(username, password);
+                    }
+
                 }
             }
         } catch (IOException e) {
@@ -58,7 +62,7 @@ public class Login {
         registreraButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new Register();
+                new Register(userCredentials);
             }
         });
 

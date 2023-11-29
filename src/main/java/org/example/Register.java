@@ -19,11 +19,11 @@ public class Register {
     JTextField UsernameField;
     JPasswordField PasswordField;
     JPasswordField RePasswordField;
-    Map<String, Kid> KidHashMap = new HashMap<>();
+    Map<String, String> KidHashMap ;
 
 
-    public Register() {
-        makeHashMap();
+    public Register(Map<String, String> userCredentials ) {
+        KidHashMap = userCredentials ;
         RegisterFrame = new JFrame("KontoRegistrering");
         UsernameField = new JTextField();
         PasswordField = new JPasswordField();
@@ -48,12 +48,12 @@ public class Register {
                     //Check = false;
                 }
                 else if(Password.length() < 8) {
-                    System.out.println("Password must be atleast 8 characters long");
+                    System.out.println("Password must be at least 8 characters long");
                     //Check = false;
                 }
                 else if(Password.equals(RePassword)) {
                     Kid kid = new Kid(Username, Password);
-                    KidHashMap.put(Username, kid);
+                    KidHashMap.put(Username, Password);
                     addToCSV(kid);
 
                     System.out.println("Successful registration");
@@ -95,23 +95,6 @@ public class Register {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter("Kids.csv", true))) {
             writer.write(kid.getKidId() + "," + kid.getKidName() + "," + kid.getKidPassword());
             writer.newLine();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private void makeHashMap() {
-        String NextLine;
-        try (BufferedReader reader = new BufferedReader(new FileReader("Kids.csv"))) {
-            while ((NextLine = reader.readLine()) != null) {
-                String[] NextLineArray = NextLine.split(",");
-                String ReadName = NextLineArray[1];
-                String ReadPassword = NextLineArray[2];
-                if(!ReadName.equals("name")) {
-                    Kid kid = new Kid(ReadName, ReadPassword);
-                    this.KidHashMap.put(ReadName, kid);
-                } 
-            }
         } catch (IOException e) {
             e.printStackTrace();
         }
