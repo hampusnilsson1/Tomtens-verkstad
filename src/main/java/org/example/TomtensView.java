@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 
 public class TomtensView extends JFrame{
     JFrame tomtensViewFrame;
-    private JPanel tomtensVeiw;
+    private JPanel tomtensView;
     private JButton stock;
     private JList wishList;
     private JScrollPane kidsName;
@@ -18,13 +18,13 @@ public class TomtensView extends JFrame{
         tomtensViewFrame.setDefaultCloseOperation(EXIT_ON_CLOSE);
         tomtensViewFrame.setSize(400, 600);
         tomtensViewFrame.setVisible(true);
-        tomtensViewFrame.setContentPane(tomtensVeiw);
+        tomtensViewFrame.setContentPane(tomtensView);
 
 
         stock.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                tomtensViewFrame.dispose();
             }
         });
 
@@ -32,7 +32,8 @@ public class TomtensView extends JFrame{
         logOut.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                new Login();
+                tomtensViewFrame.dispose();
             }
         });
     }

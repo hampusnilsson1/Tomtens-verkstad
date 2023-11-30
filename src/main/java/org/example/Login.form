@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.Login">
-  <grid id="27dc6" binding="loginPanel" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="loginPanel" layout-manager="GridLayoutManager" row-count="8" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="60" left="10" bottom="10" right="10"/>
     <constraints>
       <xy x="20" y="20" width="641" height="455"/>
@@ -12,7 +12,7 @@
     <children>
       <component id="e8519" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="160" height="19"/>
           </grid>
         </constraints>
@@ -23,7 +23,7 @@
       </component>
       <component id="56c24" class="javax.swing.JLabel">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font size="12"/>
@@ -32,7 +32,7 @@
       </component>
       <grid id="5c64e" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties/>
         <border type="none"/>
@@ -51,8 +51,9 @@
           <component id="128af" class="javax.swing.JTextField" binding="userField">
             <constraints/>
             <properties>
+              <focusable value="true"/>
               <horizontalAlignment value="10"/>
-              <margin top="2" left="6" bottom="2" right="6"/>
+              <margin top="2" left="5" bottom="2" right="6"/>
               <preferredSize width="170" height="30"/>
               <scrollOffset value="0"/>
               <selectionColor color="-2825473"/>
@@ -67,7 +68,7 @@
       </grid>
       <grid id="dceff" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
         <constraints>
-          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties/>
         <border type="none"/>
@@ -94,7 +95,7 @@
       </grid>
       <grid id="1324f" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
         <constraints>
-          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties/>
         <border type="none"/>
@@ -114,21 +115,26 @@
           <component id="20083" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
             <constraints/>
             <properties>
-              <maximumSize width="170" height="30"/>
-              <minimumSize width="170" height="30"/>
+              <alignmentX value="0.5"/>
+              <margin top="2" left="5" bottom="2" right="5"/>
+              <maximumSize width="2147483647" height="2147483647"/>
+              <minimumSize width="49" height="30"/>
               <preferredSize width="170" height="30"/>
             </properties>
+            <clientProperties>
+              <caretWidth class="java.lang.Integer" value="1"/>
+            </clientProperties>
           </component>
         </children>
       </grid>
       <vspacer id="bf2b8">
         <constraints>
-          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
       <grid id="5b90a" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
         <constraints>
-          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties/>
         <border type="none"/>

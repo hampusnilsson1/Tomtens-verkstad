@@ -1,0 +1,11 @@
+1,Nallebjörn,20
+2,Fotboll,30
+3,iPad,25
+4,Actionfigur,40
+5,Sminkset,15
+5,Sockar,40
+6,Docka,30
+7,Spelkonsol,10
+8,Nimbus 2000,1
+9,iPhone, 20
+10,Stickad Tröja,5000
