@@ -39,39 +39,32 @@ public class Register {
                 String Password = new String(PasswordField.getPassword());
                 String RePassword = new String(RePasswordField.getPassword());
 
-                if(Username.length() < 2) {
-                    showMessage("Felmeddelande", "Användarnamnet måste bestå av minst 3 tecken!");
-                    //System.out.println("Username must be 3 characters or longer.");
-                    
+                if(Username.length() < 3) {
+                    showMessage("Felmeddelande", "Användarnamnet måste bestå av minst 3 tecken!",false);
+
                 }
                 else if(!(KidHashMap.get(Username) == null)) {
-                    showMessage("Felmeddelande", "Användarnamnet är redan taget!");
-                    //System.out.println("Username already taken");
-                    
+                    showMessage("Felmeddelande", "Användarnamnet är redan taget!",false);
+
                 }
                 else if(Password.length() < 8) {
-                    showMessage("Felmeddelande", "Ditt lösenord måste vara minst 8 tecken långt!");
-                    //System.out.println("Password must be at least 8 characters long");
+                    showMessage("Felmeddelande", "Ditt lösenord måste vara minst 8 tecken långt!",false);
+
                     
                 }
                 else if(Password.equals(RePassword)) {
                     Kid kid = new Kid(Username, Password);
                     KidHashMap.put(Username, Password);
                     addToCSV(kid);
-
-                    //System.out.println("Successful registration");
-                    //System.out.println("id: " + kid.getKidId());
-                    //System.out.println("name: " + kid.getKidName());
-                    //System.out.println("PW: " + Password);
                     PasswordField.setText("");
                     UsernameField.setText("");
                     RePasswordField.setText("");
-                    showMessage("Registrering klar!", ("Du är nu registrerad under användarnamnet: " + Username));
+                    showMessage("Registrering klar!", ("Du är nu registrerad under användarnamnet: " + Username),true);
 
                 } 
                 else {
-                    showMessage("Felmeddelande", "Lösenorden stämmer inte överens!");
-                    //System.out.println("Passwords do not match");
+                    showMessage("Felmeddelande", "Lösenorden stämmer inte överens!",false);
+
                 }
             }
 
@@ -105,7 +98,10 @@ public class Register {
         }
     }
 
-    private void showMessage(String title, String message) {
+    private void showMessage(String title, String message,boolean close) {
         JOptionPane.showMessageDialog(RegisterFrame, message, title, JOptionPane.INFORMATION_MESSAGE);
+        if(close){
+            RegisterFrame.dispose();
+        }
     }
 }

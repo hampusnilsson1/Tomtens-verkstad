@@ -36,7 +36,6 @@ public class Login {
                         Kid kid = new Kid(username,password);
                         userCredentials.put(username, password);
                     }
-
                 }
             }
         } catch (IOException e) {
@@ -45,7 +44,6 @@ public class Login {
 
         return userCredentials;
     }
-
 
     public Login()
     {
@@ -89,6 +87,5 @@ public class Login {
             }
         });
     }
-
 
 }
