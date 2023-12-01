@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c4af593-c9e3-497a-b7bf-ad69973bac54" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Wish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Wish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wish_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wish_list.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2Yqj1EXewq5MutIqskB2cFYWynN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "AntonsBranch2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c4af593-c9e3-497a-b7bf-ad69973bac54" name="Changes" comment="" />
+      <created>1701259786447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701259786447</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
