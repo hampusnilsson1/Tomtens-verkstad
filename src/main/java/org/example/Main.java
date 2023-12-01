@@ -1,12 +1,17 @@
 package org.example;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
 
         System.out.println("VÅR GRUPPUPPGIFT TOMTENSVERKSTAD");
         System.out.println("test");
-        Login login = new Login();
-        Wishlist wishlist = new Wishlist();
+      //  Login login = new Login();
+      //  Wishlist wishlist = new Wishlist();
+       // Register test = new Register();
+        Lager lager = new Lager();
+
 
     }
     //testing
