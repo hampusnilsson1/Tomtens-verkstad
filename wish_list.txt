@@ -1,4 +1,4 @@
-freddan123, Nimbus 2000
+freddan123, Nimbus 2000,true,Iphone,false,Nallebjörn,true
 kalle
 kulan
 gustav

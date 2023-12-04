@@ -3,12 +3,12 @@ package org.example;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.HashMap;
+import java.io.File;
+import java.util.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.Map;
 
 public class Login {
     JFrame logInFrame;
@@ -22,22 +22,29 @@ public class Login {
     private String adminUserName = "Julen";
     private String adminPassword = "2023";
 
+    Map<String, String> userCredentials;
+
+    ArrayList<Kid> kidObjList = new ArrayList<>(); // HÄR LADDAS ALLA BARN IN TILL NÄR LOGIN LADDAS
+
+    public void loadAllData() {
+        userCredentials = readUserCredentials("Kids.csv");
+        loadWishLists("wish_list.txt", userCredentials);
+        System.out.println(kidObjList);
+        // Allt ska nu va sparat under kidObjList
+    }
+
     private Map<String, String> readUserCredentials(String filePath) {
         Map<String, String> userCredentials = new HashMap<>();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
+            reader.readLine();//Hoppa överförsta raden
             while ((line = reader.readLine()) != null) {
+                System.out.println(line);
                 String[] parts = line.split(",");
-                if (parts.length == 3) {
-                    String username = parts[1].trim();
-                    String password = parts[2].trim();
-                    if(!username.equals("name")){
-                        Kid kid = new Kid(username,password);
-                        userCredentials.put(username, password);
-                    }
-
-                }
+                String username = parts[1].trim();
+                String password = parts[2].trim();
+                userCredentials.put(username, password);
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -46,6 +53,34 @@ public class Login {
         return userCredentials;
     }
 
+    private void loadWishLists(String filePath, Map<String, String> userCredentials) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath)))
+        {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] variables = line.split(",");
+                String name = variables[0];
+
+                //Kollar vilket konto som finns med samma namn som wishlist.
+                if (userCredentials.containsKey(name)) {
+                    String password = userCredentials.get(name);
+
+                    HashMap<String, Boolean> wishes = new HashMap<>();
+                    for (int varNum = 1; varNum < variables.length; varNum += 2) {
+                        String wishName = variables[varNum];
+                        boolean wishStatus = Boolean.valueOf(variables[varNum + 1]);
+                        wishes.put(wishName, wishStatus);
+                    }
+
+                    // Skapa Kid-objekt och lägg till i listan
+                    Kid kid = new Kid(name, password, wishes);
+                    kidObjList.add(kid);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     public Login()
     {
@@ -56,8 +91,7 @@ public class Login {
         logInFrame.setResizable(false);
         logInFrame.setVisible(true);
 
-        //Läser in alla barn som finns att logga in på
-        Map<String, String> userCredentials = readUserCredentials("Kids.csv");
+        loadAllData();
 
         registreraButton.addActionListener(new ActionListener() {
             @Override
@@ -73,7 +107,7 @@ public class Login {
                 String enteredPassword = passwordField1.getText();
 
                 if (enteredUsername.equals(adminUserName) && enteredPassword.equals(adminPassword)) {
-                    new TomtensView();
+                    new TomtensView(kidObjList); // FEED KIDS WITH THEIR WISHLIST.
                     logInFrame.dispose();
                 } else if (userCredentials.containsKey(enteredUsername) &&
                         userCredentials.get(enteredUsername).equals(enteredPassword) && iHaveBeenGoodCheckBox.isSelected()) {
