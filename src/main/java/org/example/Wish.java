@@ -2,9 +2,9 @@ package org.example;
 
 public class Wish {
 
-    int wishId;
-    String wishName;
-    int quantity;
+    private int wishId;
+    private String wishName;
+    private int quantity;
 
     public Wish(String wishName){
         this.wishName=wishName;

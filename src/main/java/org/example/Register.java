@@ -39,34 +39,32 @@ public class Register {
                 String Password = new String(PasswordField.getPassword());
                 String RePassword = new String(RePasswordField.getPassword());
 
-                if(Username.length() < 2) {
-                    System.out.println("Username must be 3 characters or longer.");
-                    //Check = false;
+                if(Username.length() < 3) {
+                    showMessage("Felmeddelande", "Användarnamnet måste bestå av minst 3 tecken!",false);
+
                 }
                 else if(!(KidHashMap.get(Username) == null)) {
-                    System.out.println("Username already taken");
-                    //Check = false;
+                    showMessage("Felmeddelande", "Användarnamnet är redan taget!",false);
+
                 }
                 else if(Password.length() < 8) {
-                    System.out.println("Password must be at least 8 characters long");
-                    //Check = false;
+                    showMessage("Felmeddelande", "Ditt lösenord måste vara minst 8 tecken långt!",false);
+
+                    
                 }
                 else if(Password.equals(RePassword)) {
                     Kid kid = new Kid(Username, Password);
                     KidHashMap.put(Username, Password);
                     addToCSV(kid);
-
-                    System.out.println("Successful registration");
-                    System.out.println("id: " + kid.getKidId());
-                    System.out.println("name: " + kid.getKidName());
-                    System.out.println("PW: " + Password);
                     PasswordField.setText("");
                     UsernameField.setText("");
                     RePasswordField.setText("");
+                    showMessage("Registrering klar!", ("Du är nu registrerad under användarnamnet: " + Username),true);
 
                 } 
                 else {
-                    System.out.println("Passwords do not match");
+                    showMessage("Felmeddelande", "Lösenorden stämmer inte överens!",false);
+
                 }
             }
 
@@ -97,6 +95,13 @@ public class Register {
             writer.newLine();
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+
+    private void showMessage(String title, String message,boolean close) {
+        JOptionPane.showMessageDialog(RegisterFrame, message, title, JOptionPane.INFORMATION_MESSAGE);
+        if(close){
+            RegisterFrame.dispose();
         }
     }
 }
