@@ -1,8 +1,9 @@
-freddan123, Nimbus 2000,true,Iphone,false,Nallebjörn,true
+freddan123,Sminkset,false,Actionfigur,false
 kalle
-kulan
+kulan,Sockar,false,Spelkonsol,false,Spelkonsol,false,Spelkonsol,false,Spelkonsol,false
 gustav
 niklas
 kallekula
-kulan123
+kulan
 hejhopp
+eaglerider,Spelkonsol,false,Spelkonsol,false

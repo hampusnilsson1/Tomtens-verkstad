@@ -56,6 +56,7 @@ public class Register {
                     Kid kid = new Kid(Username, Password);
                     KidHashMap.put(Username, Password);
                     addToCSV(kid);
+                    addToTxt(kid);
                     PasswordField.setText("");
                     UsernameField.setText("");
                     RePasswordField.setText("");
@@ -92,6 +93,15 @@ public class Register {
     private void addToCSV(Kid kid) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter("Kids.csv", true))) {
             writer.write(kid.getKidId() + "," + kid.getKidName() + "," + kid.getKidPassword());
+            writer.newLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void addToTxt(Kid kid) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("wish_list.txt", true))) {
+            writer.write(kid.getKidName());
             writer.newLine();
         } catch (IOException e) {
             e.printStackTrace();
