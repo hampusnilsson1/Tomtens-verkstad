@@ -1,8 +1,8 @@
-freddan123,Fotboll,Nimbus 2000,Spelkonsol,Stickad Tröja,Actionfigur
+freddan123,Sminkset,false,Actionfigur,false
 kalle
-kulan
+kulan,Sockar,false,Spelkonsol,false,Spelkonsol,false,Spelkonsol,false,Spelkonsol,false
 gustav
 niklas
 kallekula
-kulan123
+kulan
 hejhopp
