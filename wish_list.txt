@@ -6,3 +6,4 @@ niklas
 kallekula
 kulan
 hejhopp
+eaglerider,Spelkonsol,false,Spelkonsol,false

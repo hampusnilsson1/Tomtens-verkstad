@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c4af593-c9e3-497a-b7bf-ad69973bac54" name="Changes" comment="Jag har fixat så att man kan spara ner ändringar i listan. Vad jag gjorde var att när wishlist fönstret öppnas så skapas det en temporär fil. När man ska spara ner så sparas allt till temp filen (&quot;wish_list_temp.txt&quot;), sedan tar man bort den gamla filen (&quot;wish_list.txt&quot;) och byter namn på på dem. Gjort så att man efter man sparat automatiskt loggas ut och kommer tillbaka till loginskärmen. &#10;&#10;Sedan har jag också gjort att när man lägger till element i önskelistan så läggs den också till/Tas bort i Arrayen vilket den inte gjorde innan, vilket ledde till att det inte sparades ner ordentligt. Nu är det problemet löst.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Register$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Register$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wish_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wish_list.txt" afterDir="false" />
+    <list default="true" id="7c4af593-c9e3-497a-b7bf-ad69973bac54" name="Changes" comment="Save funktionen fullt gjort. Har gjort lite ändringar i wishlist klassen samt lagt in lite kommentarer så man har lite mer förståelse över vad som händer i save funktionen osv.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Register.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,12 +55,20 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1701374196948</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Save funktionen fullt gjort. Har gjort lite ändringar i wishlist klassen samt lagt in lite kommentarer så man har lite mer förståelse över vad som händer i save funktionen osv.">
+      <option name="closed" value="true" />
+      <created>1701763058435</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1701763058435</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Jag har fixat så att man kan spara ner ändringar i listan. Vad jag gjorde var att när wishlist fönstret öppnas så skapas det en temporär fil. När man ska spara ner så sparas allt till temp filen (&quot;wish_list_temp.txt&quot;), sedan tar man bort den gamla filen (&quot;wish_list.txt&quot;) och byter namn på på dem. Gjort så att man efter man sparat automatiskt loggas ut och kommer tillbaka till loginskärmen. &#10;&#10;Sedan har jag också gjort att när man lägger till element i önskelistan så läggs den också till/Tas bort i Arrayen vilket den inte gjorde innan, vilket ledde till att det inte sparades ner ordentligt. Nu är det problemet löst." />
-    <option name="LAST_COMMIT_MESSAGE" value="Jag har fixat så att man kan spara ner ändringar i listan. Vad jag gjorde var att när wishlist fönstret öppnas så skapas det en temporär fil. När man ska spara ner så sparas allt till temp filen (&quot;wish_list_temp.txt&quot;), sedan tar man bort den gamla filen (&quot;wish_list.txt&quot;) och byter namn på på dem. Gjort så att man efter man sparat automatiskt loggas ut och kommer tillbaka till loginskärmen. &#10;&#10;Sedan har jag också gjort att när man lägger till element i önskelistan så läggs den också till/Tas bort i Arrayen vilket den inte gjorde innan, vilket ledde till att det inte sparades ner ordentligt. Nu är det problemet löst." />
+    <MESSAGE value="Save funktionen fullt gjort. Har gjort lite ändringar i wishlist klassen samt lagt in lite kommentarer så man har lite mer förståelse över vad som händer i save funktionen osv." />
+    <option name="LAST_COMMIT_MESSAGE" value="Save funktionen fullt gjort. Har gjort lite ändringar i wishlist klassen samt lagt in lite kommentarer så man har lite mer förståelse över vad som händer i save funktionen osv." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
