@@ -4,28 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82c95828-5d63-4c43-85e2-c3b7bb2146f1" name="Changes" comment="Ändrat småsaker">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-11-23_14_02__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-11-23_14_02__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Kid.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Kid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Register$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Register$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
+    <list default="true" id="7c4af593-c9e3-497a-b7bf-ad69973bac54" name="Changes" comment="Save funktionen fullt gjort. Har gjort lite ändringar i wishlist klassen samt lagt in lite kommentarer så man har lite mer förståelse över vad som händer i save funktionen osv.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Register.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -36,74 +21,91 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
+  &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2YUGqriZqC86eFJRQKBginQ9YHs" />
+  <component name="ProjectId" id="2Yqj1EXewq5MutIqskB2cFYWynN" />
   <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Lotta&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hampus/IntellijProjects/Tomtens-verkstad&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master--Test-run",
+    "last_opened_file_path": "C:/Skolan/Java/PokemonProject"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Hampus\IntellijProjects\Tomtens-verkstad" />
-      <recent name="C:\Users\Hampus\IntellijProjects\Tomtens-verkstad\src\main\resources" />
-      <recent name="C:\Users\Hampus\IntellijProjects\Tomtens-verkstad\src\main\java\org\example" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hamse\IdeaProjects\Tomtens-verkstad" />
-      <recent name="C:\Users\hamse\IdeaProjects\Tomtens-verkstad\src\main\java\org\example" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="TomtensVerkstad" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="82c95828-5d63-4c43-85e2-c3b7bb2146f1" name="Changes" comment="" />
-      <created>1700572940723</created>
+      <changelist id="7c4af593-c9e3-497a-b7bf-ad69973bac54" name="Changes" comment="" />
+      <created>1701259786447</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1700572940723</updated>
+      <updated>1701259786447</updated>
     </task>
+    <task id="LOCAL−00001" summary="Jag har fixat så att man kan spara ner ändringar i listan. Vad jag gjorde var att när wishlist fönstret öppnas så skapas det en temporär fil. När man ska spara ner så sparas allt till temp filen (&quot;wish_list_temp.txt&quot;), sedan tar man bort den gamla filen (&quot;wish_list.txt&quot;) och byter namn på på dem. Gjort så att man efter man sparat automatiskt loggas ut och kommer tillbaka till loginskärmen. &#10;&#10;Sedan har jag också gjort att när man lägger till element i önskelistan så läggs den också till/Tas bort i Arrayen vilket den inte gjorde innan, vilket ledde till att det inte sparades ner ordentligt. Nu är det problemet löst.">
+      <option name="closed" value="true" />
+      <created>1701374196948</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1701374196948</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Save funktionen fullt gjort. Har gjort lite ändringar i wishlist klassen samt lagt in lite kommentarer så man har lite mer förståelse över vad som händer i save funktionen osv.">
+      <option name="closed" value="true" />
+      <created>1701763058435</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1701763058435</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ändrat småsaker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ändrat småsaker" />
+    <MESSAGE value="Jag har fixat så att man kan spara ner ändringar i listan. Vad jag gjorde var att när wishlist fönstret öppnas så skapas det en temporär fil. När man ska spara ner så sparas allt till temp filen (&quot;wish_list_temp.txt&quot;), sedan tar man bort den gamla filen (&quot;wish_list.txt&quot;) och byter namn på på dem. Gjort så att man efter man sparat automatiskt loggas ut och kommer tillbaka till loginskärmen. &#10;&#10;Sedan har jag också gjort att när man lägger till element i önskelistan så läggs den också till/Tas bort i Arrayen vilket den inte gjorde innan, vilket ledde till att det inte sparades ner ordentligt. Nu är det problemet löst." />
+    <MESSAGE value="Save funktionen fullt gjort. Har gjort lite ändringar i wishlist klassen samt lagt in lite kommentarer så man har lite mer förståelse över vad som händer i save funktionen osv." />
+    <option name="LAST_COMMIT_MESSAGE" value="Save funktionen fullt gjort. Har gjort lite ändringar i wishlist klassen samt lagt in lite kommentarer så man har lite mer förståelse över vad som händer i save funktionen osv." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>
+          <line>209</line>
+          <properties class="org.example.Wishlist" method="getCSV">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>
+          <line>127</line>
+          <properties method="actionPerformed">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>
+          <line>142</line>
+          <properties method="actionPerformed">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

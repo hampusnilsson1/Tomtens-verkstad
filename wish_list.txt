@@ -1,0 +1,9 @@
+freddan123,Sminkset,false,Actionfigur,false
+kalle
+kulan,Sockar,false,Spelkonsol,false,Spelkonsol,false,Spelkonsol,false,Spelkonsol,false
+gustav
+niklas
+kallekula
+kulan
+hejhopp
+eaglerider,Spelkonsol,false,Spelkonsol,false
