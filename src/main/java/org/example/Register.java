@@ -39,6 +39,7 @@ public class Register {
                 String Password = new String(PasswordField.getPassword());
                 String RePassword = new String(RePasswordField.getPassword());
 
+<<<<<<< Updated upstream
                 if(Username.length() < 3) {
                     showMessage("Felmeddelande", "Användarnamnet måste bestå av minst 3 tecken!",false);
 
@@ -50,6 +51,21 @@ public class Register {
                 else if(Password.length() < 8) {
                     showMessage("Felmeddelande", "Ditt lösenord måste vara minst 8 tecken långt!",false);
 
+=======
+                if(Username.length() < 2) {
+                    showMessage("Felmeddelande", "Användarnamnet måste bestå av minst 3 tecken!",false);
+                    //System.out.println("Username must be 3 characters or longer.");
+                    
+                }
+                else if(!(KidHashMap.get(Username) == null)) {
+                    showMessage("Felmeddelande", "Användarnamnet är redan taget!",false);
+                    //System.out.println("Username already taken");
+                    
+                }
+                else if(Password.length() < 8) {
+                    showMessage("Felmeddelande", "Ditt lösenord måste vara minst 8 tecken långt!",false);
+                    //System.out.println("Password must be at least 8 characters long");
+>>>>>>> Stashed changes
                     
                 }
                 else if(Password.equals(RePassword)) {
@@ -65,7 +81,11 @@ public class Register {
                 } 
                 else {
                     showMessage("Felmeddelande", "Lösenorden stämmer inte överens!",false);
+<<<<<<< Updated upstream
 
+=======
+                    //System.out.println("Passwords do not match");
+>>>>>>> Stashed changes
                 }
             }
 
@@ -99,6 +119,7 @@ public class Register {
         }
     }
 
+<<<<<<< Updated upstream
     private void addToTxt(Kid kid) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter("wish_list.txt", true))) {
             writer.write(kid.getKidName());
@@ -113,5 +134,14 @@ public class Register {
         if(close){
             RegisterFrame.dispose();
         }
+=======
+    private void showMessage(String title, String message,boolean close) {
+        JOptionPane.showMessageDialog(RegisterFrame, message, title, JOptionPane.INFORMATION_MESSAGE);
+        if(close)
+        {
+            RegisterFrame.dispose();
+        }
+
+>>>>>>> Stashed changes
     }
 }
