@@ -66,15 +66,15 @@ public class Wishlist {
                 if (line.contains(enteredUsername)){
 
 
-                String[] variables = line.split(",");
-                int u = variables.length;
+                    String[] variables = line.split(",");
+                    int u = variables.length;
 
-                for (int i = 1; i < u; i++,i++) {
+                    for (int i = 1; i < u; i++,i++) {
 
-                    String wishName = variables[i];
-                    Wish wish = new Wish(wishName);
-                    kidsWishes.add(wish);
-                }
+                        String wishName = variables[i];
+                        Wish wish = new Wish(wishName);
+                        kidsWishes.add(wish);
+                    }
                 }
 
                 line = bufferedReader.readLine();
@@ -141,7 +141,6 @@ public class Wishlist {
         Remove.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
                 String selectedValue = (String) wishlist.getSelectedValue();
                     listModel.removeElement(selectedValue);
             }

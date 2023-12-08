@@ -41,8 +41,11 @@
             <constraints/>
             <properties>
               <font name="Arial"/>
-              <horizontalAlignment value="10"/>
+              <horizontalAlignment value="4"/>
               <horizontalTextPosition value="11"/>
+              <maximumSize width="57" height="15"/>
+              <minimumSize width="57" height="15"/>
+              <preferredSize width="90" height="15"/>
               <text value="Användarnamn:"/>
               <verticalAlignment value="0"/>
               <verticalTextPosition value="0"/>
@@ -53,7 +56,7 @@
             <properties>
               <focusable value="true"/>
               <horizontalAlignment value="10"/>
-              <margin top="2" left="5" bottom="2" right="6"/>
+              <margin top="2" left="6" bottom="2" right="6"/>
               <preferredSize width="170" height="30"/>
               <scrollOffset value="0"/>
               <selectionColor color="-2825473"/>
