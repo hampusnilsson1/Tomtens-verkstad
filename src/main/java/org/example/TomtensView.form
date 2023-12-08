@@ -170,7 +170,7 @@
                   <font name="DejaVu Sans Mono" size="11" style="0"/>
                   <horizontalAlignment value="0"/>
                   <horizontalTextPosition value="0"/>
-                  <text value="(Välj i listan)"/>
+                  <text value="(Välj vilken önskning som ska bli uppfylld i listan)"/>
                 </properties>
               </component>
               <component id="741aa" class="javax.swing.JList" binding="wishesJList">

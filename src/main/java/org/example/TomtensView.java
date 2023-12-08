@@ -75,7 +75,7 @@ public class TomtensView extends JFrame{
                         System.out.println("Got him "+kid.getKidName());
                         for (Map.Entry<String, Boolean> currentWish : kid.getWishList().entrySet()) {
                             if(currentWish.getValue() == true)
-                                wishesListModel.addElement(currentWish.getKey()+" är nu skickade!");
+                                wishesListModel.addElement(currentWish.getKey()+" är nu skickad!");
                             else
                                 wishesListModel.addElement(currentWish.getKey());
                         }
@@ -100,8 +100,9 @@ public class TomtensView extends JFrame{
                             // Kollar om det är rätt önskning
                             if (currentWish.getKey().equals(selectedValue)) {
                                 currentWish.setValue(true);
+
                                 System.out.println("Wish was granted!");
-                                wishesListModel.set(selectedIndex,currentWish.getKey()+"    håller nu på att skickas.");
+                                wishesListModel.set(selectedIndex,currentWish.getKey()+" håller nu på att skickas.");
                             }
                         }
                     }

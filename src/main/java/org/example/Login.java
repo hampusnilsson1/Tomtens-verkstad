@@ -64,7 +64,6 @@ public class Login {
                 //Kollar vilket konto som finns med samma namn som wishlist.
                 if (userCredentials.containsKey(name)) {
                     String password = userCredentials.get(name);
-
                     HashMap<String, Boolean> wishes = new HashMap<>();
                     for (int varNum = 1; varNum < variables.length; varNum += 2) {
                         String wishName = variables[varNum];
