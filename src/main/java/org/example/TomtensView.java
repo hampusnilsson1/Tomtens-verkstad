@@ -6,6 +6,7 @@ import javax.swing.event.ListSelectionListener;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Map;
 
@@ -100,7 +101,7 @@ public class TomtensView extends JFrame{
                             // Kollar om det är rätt önskning
                             if (currentWish.getKey().equals(selectedValue)) {
                                 currentWish.setValue(true);
-
+                                saveAllKidWishStatus(kidObjList); //Sparar om alla kids i listan till wish_list.txt (Skriver över)
                                 System.out.println("Wish was granted!");
                                 wishesListModel.set(selectedIndex,currentWish.getKey()+" håller nu på att skickas.");
                             }
@@ -117,6 +118,24 @@ public class TomtensView extends JFrame{
         kidsJList.setModel(kidsListModel);//Load JList Model to above
         for (Kid kid:kidObjList) {
             kidsListModel.addElement(kid.getKidName());
+            System.out.println(kid.getWishesCSV());
+        }
+    }
+
+    void saveAllKidWishStatus(ArrayList<Kid> kidObjList)
+    {
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter("wish_list.txt",false));// Append false så skriver över allt i wishlist.
+            for (int i = 0; i< kidObjList.size(); i++)
+            {
+                writer.write(kidObjList.get(i).getWishesCSV()); // Skriver ner
+                if(i < kidObjList.size() - 1)//Tar ny rad sålänge det inte är sista i listan
+                    writer.newLine();
+                System.out.println("Saved"+kidObjList.get(i).getWishesCSV());
+            }
+            writer.close(); // Stänger och sparar allt till filen
+        } catch (IOException e) {
+
         }
     }
 
