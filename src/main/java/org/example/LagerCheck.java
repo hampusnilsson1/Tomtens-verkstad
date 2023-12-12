@@ -173,6 +173,12 @@ public class LagerCheck {
                 String wish = wishLabels[i].getText();
                 int quantity = wishQuantities.getOrDefault(wish, 0);
                 statusLabels[i].setText(quantity > 0 ? "Finns i Lager" : "Ej i Lager");
+                    if (statusLabels[i].getText()=="Finns i Lager"){
+                        statusLabels[i].setForeground(Color.GREEN);
+                    }
+                    else {
+                        statusLabels[i].setForeground(Color.RED);
+                    }
             }
         }
     }

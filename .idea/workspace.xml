@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c4af593-c9e3-497a-b7bf-ad69973bac54" name="Changes" comment="Ändrade så man nu bara kan önska sig en sorts julklapp. La också till lite fler saker man kan önska sig.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7c4af593-c9e3-497a-b7bf-ad69973bac54" name="Changes" comment="Jag har lagt till en ny form och klass som heter LagerCheck. För att den ska synas så klickar man på &quot;Lager&quot; knappen i tomtens view så står det önskningarna barnen har och en text jämte ifall dessa önskningarna finns i lager eller ej.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LagerCheck.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LagerCheck.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LagerCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LagerCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/LagerCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/LagerCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wish_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wish_list.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +42,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;OllesBranch&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Skolan/Java/PokemonProject&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master--Test-run",
+    "last_opened_file_path": "C:/Skolan/Java/PokemonProject"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,22 +80,71 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1702142788519</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Jag har lagt till en ny form och klass som heter LagerCheck. För att den ska synas så klickar man på &quot;Lager&quot; knappen i tomtens view så står det önskningarna barnen har och en text jämte ifall dessa önskningarna finns i lager eller ej.">
+      <option name="closed" value="true" />
+      <created>1702377426705</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1702377426705</updated>
+    </task>
+    <task id="LOCAL−00005" summary="Jag har lagt till en ny form och klass som heter LagerCheck. För att den ska synas så klickar man på &quot;Lager&quot; knappen i tomtens view så står det önskningarna barnen har och en text jämte ifall dessa önskningarna finns i lager eller ej.">
+      <option name="closed" value="true" />
+      <created>1702377489990</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1702377489990</updated>
+    </task>
+    <task id="LOCAL−00006" summary="Jag har lagt till en ny form och klass som heter LagerCheck. För att den ska synas så klickar man på &quot;Lager&quot; knappen i tomtens view så står det önskningarna barnen har och en text jämte ifall dessa önskningarna finns i lager eller ej.">
+      <option name="closed" value="true" />
+      <created>1702377693934</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1702377693934</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Jag har fixat så att man kan spara ner ändringar i listan. Vad jag gjorde var att när wishlist fönstret öppnas så skapas det en temporär fil. När man ska spara ner så sparas allt till temp filen (&quot;wish_list_temp.txt&quot;), sedan tar man bort den gamla filen (&quot;wish_list.txt&quot;) och byter namn på på dem. Gjort så att man efter man sparat automatiskt loggas ut och kommer tillbaka till loginskärmen. &#10;&#10;Sedan har jag också gjort att när man lägger till element i önskelistan så läggs den också till/Tas bort i Arrayen vilket den inte gjorde innan, vilket ledde till att det inte sparades ner ordentligt. Nu är det problemet löst." />
     <MESSAGE value="Save funktionen fullt gjort. Har gjort lite ändringar i wishlist klassen samt lagt in lite kommentarer så man har lite mer förståelse över vad som händer i save funktionen osv." />
     <MESSAGE value="Ändrade så man nu bara kan önska sig en sorts julklapp. La också till lite fler saker man kan önska sig." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ändrade så man nu bara kan önska sig en sorts julklapp. La också till lite fler saker man kan önska sig." />
+    <MESSAGE value="Jag har lagt till en ny form och klass som heter LagerCheck. För att den ska synas så klickar man på &quot;Lager&quot; knappen i tomtens view så står det önskningarna barnen har och en text jämte ifall dessa önskningarna finns i lager eller ej." />
+    <option name="LAST_COMMIT_MESSAGE" value="Jag har lagt till en ny form och klass som heter LagerCheck. För att den ska synas så klickar man på &quot;Lager&quot; knappen i tomtens view så står det önskningarna barnen har och en text jämte ifall dessa önskningarna finns i lager eller ej." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>
+          <line>213</line>
+          <properties class="org.example.Wishlist">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>
+          <line>127</line>
+          <properties method="actionPerformed">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>
+          <line>146</line>
+          <properties method="actionPerformed">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/LagerCheck.java</url>
-          <line>119</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
