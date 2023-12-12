@@ -35,7 +35,7 @@ public class Lager extends JFrame{
             String line = bufferedReader.readLine();
             while (line != null) {
                 String[] variables = line.split(",");
-                model1.addElement(variables[1]);
+                model1.addElement(variables[1] + "/" + variables[2]);
                 line = bufferedReader.readLine();
             }
             bufferedReader.close();
@@ -54,7 +54,7 @@ public class Lager extends JFrame{
                 String[] variables = line.split(",");
                 for (String var:variables) {
                     for (int i = 0; i < model1.getSize();i++){
-                        if (Objects.equals(var, model1.get(i))){
+                        if (Objects.equals(var, model1.get(i).split("/")[0])){
                             wishAmount[i]++;
                         }
                     }
@@ -74,5 +74,22 @@ public class Lager extends JFrame{
         }
 
 
+    }
+    public void SendPresents(){
+        try {
+            FileReader fileReader = new FileReader("wish_list_for_kids.txt");
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+            String line = bufferedReader.readLine();
+            while (line != null) {
+                String[] variables = line.split(",");
+
+                line = bufferedReader.readLine();
+            }
+            bufferedReader.close();
+            fileReader.close();
+        }
+        catch (NumberFormatException | IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
