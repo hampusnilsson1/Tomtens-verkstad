@@ -53,7 +53,7 @@ public class TomtensView extends JFrame{
         stock.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                tomtensViewFrame.dispose();
+                LagerCheck lagerCheck = new LagerCheck(wishesListModel);
             }
         });
         logOut.addActionListener(new ActionListener() {

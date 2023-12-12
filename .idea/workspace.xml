@@ -4,25 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c4af593-c9e3-497a-b7bf-ad69973bac54" name="Changes" comment="Save funktionen fullt gjort. Har gjort lite ändringar i wishlist klassen samt lagt in lite kommentarer så man har lite mer förståelse över vad som händer i save funktionen osv.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MusicPlayer.java" afterDir="false" />
+    <list default="true" id="7c4af593-c9e3-497a-b7bf-ad69973bac54" name="Changes" comment="Ändrade så man nu bara kan önska sig en sorts julklapp. La också till lite fler saker man kan önska sig.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LagerCheck.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LagerCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Login.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TomtensView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TomtensView.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TomtensView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TomtensView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Kid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Kid.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Register$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Register$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Register.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist.class" afterDir="false" />
@@ -44,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="master--Test-run" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,20 +59,10 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;320&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Lotta&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/OneDrive/Skrivbord/JAVA/Tomtens-verkstad&quot;
+    &quot;git-widget-placeholder&quot;: &quot;master--Test-run&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Skolan/Java/PokemonProject&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="TomtensVerkstad" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -101,21 +86,29 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1701763058435</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Ändrade så man nu bara kan önska sig en sorts julklapp. La också till lite fler saker man kan önska sig.">
+      <option name="closed" value="true" />
+      <created>1702142788519</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1702142788519</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Jag har fixat så att man kan spara ner ändringar i listan. Vad jag gjorde var att när wishlist fönstret öppnas så skapas det en temporär fil. När man ska spara ner så sparas allt till temp filen (&quot;wish_list_temp.txt&quot;), sedan tar man bort den gamla filen (&quot;wish_list.txt&quot;) och byter namn på på dem. Gjort så att man efter man sparat automatiskt loggas ut och kommer tillbaka till loginskärmen. &#10;&#10;Sedan har jag också gjort att när man lägger till element i önskelistan så läggs den också till/Tas bort i Arrayen vilket den inte gjorde innan, vilket ledde till att det inte sparades ner ordentligt. Nu är det problemet löst." />
     <MESSAGE value="Save funktionen fullt gjort. Har gjort lite ändringar i wishlist klassen samt lagt in lite kommentarer så man har lite mer förståelse över vad som händer i save funktionen osv." />
-    <option name="LAST_COMMIT_MESSAGE" value="Save funktionen fullt gjort. Har gjort lite ändringar i wishlist klassen samt lagt in lite kommentarer så man har lite mer förståelse över vad som händer i save funktionen osv." />
+    <MESSAGE value="Ändrade så man nu bara kan önska sig en sorts julklapp. La också till lite fler saker man kan önska sig." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ändrade så man nu bara kan önska sig en sorts julklapp. La också till lite fler saker man kan önska sig." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/TomtensView.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/LagerCheck.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

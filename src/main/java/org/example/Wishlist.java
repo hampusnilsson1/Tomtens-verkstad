@@ -34,7 +34,7 @@ public class Wishlist {
 
     public Wishlist(String enteredUsername) {
         wishList = new JFrame();
-        wishList.setSize(500, 500);
+        wishList.setSize(900, 500);
         wishList.setVisible(true);
         wishList.setContentPane(panel1);
         wishList.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -127,6 +127,10 @@ public class Wishlist {
             public void actionPerformed(ActionEvent e) {
                 if (listModel.size() == 10) {
                     ErrorMessage.setText("Du har redan gjort 10 önskningar. Ta bort ifån listan innan du lägger till fler.");
+                }
+
+                else if (listModel.contains(listOfAvailableWishes.getSelectedValue())){
+                    ErrorMessage.setText("Bara en av samma önskning får göras. Var vänlig välj någonting annat.");
                 }
                 else {
                     String add = String.valueOf(listOfAvailableWishes.getSelectedValue());

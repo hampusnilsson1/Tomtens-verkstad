@@ -49,7 +49,6 @@ public class Register {
                 }
                 else if(Password.length() < 8) {
                     showMessage("Felmeddelande", "Ditt lösenord måste vara minst 8 tecken långt!",false);
-
                     
                 }
                 else if(Password.equals(RePassword)) {
@@ -65,7 +64,6 @@ public class Register {
                 } 
                 else {
                     showMessage("Felmeddelande", "Lösenorden stämmer inte överens!",false);
-
                 }
             }
 

@@ -1,4 +1,4 @@
-freddan123,Sminkset,false,Actionfigur,false
+freddan123,Sminkset,false,Actionfigur,false,TV-Spel,false,Hörlurar,false
 kalle
 kulan,Sockar,false,Spelkonsol,false,Spelkonsol,false,Spelkonsol,false,Spelkonsol,false
 gustav
