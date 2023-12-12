@@ -1,11 +1,11 @@
 package org.example;
 
 import javax.swing.*;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Objects;
+import java.util.Scanner;
+
 public class Lager extends JFrame{
     JFrame LagerVeiwFrame;
     private JPanel LagerVeiw;
@@ -75,21 +75,25 @@ public class Lager extends JFrame{
 
 
     }
-    public void SendPresents(){
-        try {
-            FileReader fileReader = new FileReader("wish_list_for_kids.txt");
-            BufferedReader bufferedReader = new BufferedReader(fileReader);
-            String line = bufferedReader.readLine();
-            while (line != null) {
-                String[] variables = line.split(",");
+    public void SendPresents() throws FileNotFoundException {
+        Scanner main = new Scanner(new File("wish_list_for_kids.txt"));
 
-                line = bufferedReader.readLine();
-            }
-            bufferedReader.close();
-            fileReader.close();
+        PrintWriter  mainOutput = new PrintWriter  (new File("temp.txt"));
+        int i = 0;
+        while (main.hasNext()){
+            String[] nextTokens=main.nextLine().split(",");
+            for(String token:nextTokens)
+                if(Objects.equals(token, nextTokens[2]))
+                {
+                    mainOutput.print(Integer.parseInt(token) - wishAmount[i]);
+                }else {
+
+                    mainOutput.print(token+",");
+                }
+            mainOutput .println();
+            i++;
         }
-        catch (NumberFormatException | IOException e) {
-            throw new RuntimeException(e);
-        }
+
+        mainOutput .close();
     }
 }
