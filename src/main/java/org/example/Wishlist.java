@@ -23,7 +23,6 @@ public class Wishlist {
     private JList listOfAvailableWishes;
     private JLabel ErrorMessage;
     private JButton Savebutton;
-    private JLabel WelcomeLabel;
     private JLabel wishlistLabel;
     File wishlistFile = new File("wish_list_for_kids.txt");
     File theKidsOwnWishlist = new File("wish_list.txt");

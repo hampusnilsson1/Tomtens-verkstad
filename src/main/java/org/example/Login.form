@@ -6,7 +6,8 @@
       <xy x="20" y="20" width="641" height="455"/>
     </constraints>
     <properties>
-      <background color="-1118482"/>
+      <background color="-8049369"/>
+      <foreground color="-2046178"/>
     </properties>
     <border type="none"/>
     <children>
@@ -18,6 +19,7 @@
         </constraints>
         <properties>
           <font size="36" style="1"/>
+          <foreground color="-16756475"/>
           <text value="Välkommen till Nordpolen"/>
         </properties>
       </component>
@@ -27,26 +29,30 @@
         </constraints>
         <properties>
           <font size="12"/>
-          <text value="Vi uppfyller dina önskningar!"/>
+          <foreground color="-3627962"/>
+          <text value="här uppfyller vi alla dina julönskningar!"/>
         </properties>
       </component>
       <grid id="5c64e" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-3627962"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="b3e10" class="javax.swing.JLabel">
             <constraints/>
             <properties>
               <font name="Arial"/>
+              <foreground color="-16756475"/>
               <horizontalAlignment value="4"/>
               <horizontalTextPosition value="11"/>
               <maximumSize width="57" height="15"/>
               <minimumSize width="57" height="15"/>
               <preferredSize width="90" height="15"/>
-              <text value="Användarnamn:"/>
+              <text value="Ditt namn:"/>
               <verticalAlignment value="0"/>
               <verticalTextPosition value="0"/>
             </properties>
@@ -54,7 +60,9 @@
           <component id="128af" class="javax.swing.JTextField" binding="userField">
             <constraints/>
             <properties>
+              <background color="-3684168"/>
               <focusable value="true"/>
+              <foreground color="-16756475"/>
               <horizontalAlignment value="10"/>
               <margin top="2" left="6" bottom="2" right="6"/>
               <preferredSize width="170" height="30"/>
@@ -73,14 +81,19 @@
         <constraints>
           <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-3627962"/>
+          <foreground color="-3349051"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="91862" class="javax.swing.JCheckBox" binding="iHaveBeenGoodCheckBox">
             <constraints/>
             <properties>
+              <background color="-3627962"/>
               <focusPainted value="false"/>
               <font name="Arial"/>
+              <foreground color="-16756475"/>
               <selected value="false"/>
               <text value="Jag har varit snäll i år"/>
             </properties>
@@ -88,10 +101,10 @@
           <component id="c2362" class="javax.swing.JButton" binding="logInButton" default-binding="true">
             <constraints/>
             <properties>
-              <background color="-197380"/>
+              <background color="-3684168"/>
               <contentAreaFilled value="true"/>
               <focusPainted value="false"/>
-              <text value="Log In"/>
+              <text value="Logga In"/>
             </properties>
           </component>
         </children>
@@ -100,25 +113,33 @@
         <constraints>
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-3627962"/>
+          <enabled value="true"/>
+          <foreground color="-9500672"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="43ec3" class="javax.swing.JLabel">
             <constraints/>
             <properties>
+              <background color="-9500672"/>
               <font name="Arial"/>
+              <foreground color="-16756475"/>
               <horizontalAlignment value="4"/>
               <horizontalTextPosition value="11"/>
               <labelFor value=""/>
               <opaque value="false"/>
               <preferredSize width="90" height="15"/>
-              <text value="Lösenord:"/>
+              <text value="Din kod:"/>
             </properties>
           </component>
           <component id="20083" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
             <constraints/>
             <properties>
               <alignmentX value="0.5"/>
+              <background color="-3684168"/>
+              <foreground color="-16756475"/>
               <margin top="2" left="5" bottom="2" right="5"/>
               <maximumSize width="2147483647" height="2147483647"/>
               <minimumSize width="49" height="30"/>
@@ -139,16 +160,19 @@
         <constraints>
           <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-3627962"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="1e297" class="javax.swing.JLabel">
             <constraints/>
             <properties>
               <font name="Arial" size="12" style="2"/>
+              <foreground color="-16756475"/>
               <horizontalAlignment value="4"/>
               <horizontalTextPosition value="4"/>
-              <text value="Ny användare?"/>
+              <text value="Är det första gången du är här?"/>
               <verticalAlignment value="0"/>
             </properties>
           </component>
@@ -161,7 +185,7 @@
               <font name="Arial" size="12" style="2"/>
               <foreground color="-11435790"/>
               <horizontalAlignment value="2"/>
-              <text value="Registrera"/>
+              <text value="Skapa ditt konto, och få din kod."/>
               <verifyInputWhenFocusTarget value="true"/>
               <verticalAlignment value="0"/>
             </properties>
