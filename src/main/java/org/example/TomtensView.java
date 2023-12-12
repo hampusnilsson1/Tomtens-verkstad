@@ -1,5 +1,6 @@
 package org.example;
 
+import javax.sound.sampled.Clip;
 import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
@@ -14,7 +15,6 @@ public class TomtensView extends JFrame{
     private JPanel tomtensView;
     private JButton stock;
     private JList wishesJList;
-
     private JList<String> kidsJList;
     private JButton logOut;
     private JPanel kidScrollPanel;
@@ -25,8 +25,9 @@ public class TomtensView extends JFrame{
     String selectedKidName = "";
     Kid selectedKid = null;
 
-
-    public TomtensView(ArrayList<Kid> kidObjList){
+    MusicPlayer musicPlayer;
+    public TomtensView(ArrayList<Kid> kidObjList, MusicPlayer musicPlayer){
+        this.musicPlayer = musicPlayer;
         tomtensViewFrame = new JFrame();
         tomtensViewFrame.setDefaultCloseOperation(EXIT_ON_CLOSE);
         tomtensViewFrame.setSize(550, 600);
@@ -47,22 +48,23 @@ public class TomtensView extends JFrame{
 
 
 
+
+
         stock.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 tomtensViewFrame.dispose();
             }
         });
-
-
         logOut.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 new Login();
+                musicPlayer.stopMusic();
                 tomtensViewFrame.dispose();
+
             }
         });
-
         kidsJList.addListSelectionListener(new ListSelectionListener() {
             @Override
             public void valueChanged(ListSelectionEvent e) {

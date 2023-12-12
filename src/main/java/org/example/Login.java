@@ -1,5 +1,6 @@
 package org.example;
 
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -11,6 +12,7 @@ import java.io.IOException;
 import java.util.HashMap;
 
 public class Login {
+
     JFrame logInFrame;
     private JPanel loginPanel;
     private JTextField userField;
@@ -25,6 +27,7 @@ public class Login {
     Map<String, String> userCredentials;
 
     ArrayList<Kid> kidObjList = new ArrayList<>(); // HÄR LADDAS ALLA BARN IN TILL NÄR LOGIN LADDAS
+
 
     public void loadAllData() {
         userCredentials = readUserCredentials("Kids.csv");
@@ -54,8 +57,7 @@ public class Login {
     }
 
     private void loadWishLists(String filePath, Map<String, String> userCredentials) {
-        try (BufferedReader reader = new BufferedReader(new FileReader(filePath)))
-        {
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] variables = line.split(",");
@@ -81,16 +83,19 @@ public class Login {
         }
     }
 
-    public Login()
-    {
+    MusicPlayer musicPlayer = new MusicPlayer();
+
+    public Login() {
         logInFrame = new JFrame();
         logInFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        logInFrame.setSize(500,500);
+        logInFrame.setSize(500, 500);
         logInFrame.setContentPane(loginPanel);
         logInFrame.setResizable(false);
         logInFrame.setVisible(true);
 
         loadAllData();
+
+        musicPlayer.startMusic();
 
         registreraButton.addActionListener(new ActionListener() {
             @Override
@@ -106,13 +111,13 @@ public class Login {
                 String enteredPassword = passwordField1.getText();
 
                 if (enteredUsername.equals(adminUserName) && enteredPassword.equals(adminPassword)) {
-                    new TomtensView(kidObjList); // FEED KIDS WITH THEIR WISHLIST.
+                    new TomtensView(kidObjList, musicPlayer); // FEED KIDS WITH THEIR WISHLIST.
                     logInFrame.dispose();
                 } else if (userCredentials.containsKey(enteredUsername) &&
                         userCredentials.get(enteredUsername).equals(enteredPassword) && iHaveBeenGoodCheckBox.isSelected()) {
                     Wishlist wishlist = new Wishlist(enteredUsername);
                     logInFrame.dispose();
-                } else if (!iHaveBeenGoodCheckBox.isSelected() && !enteredUsername.equals(adminUserName)){
+                } else if (!iHaveBeenGoodCheckBox.isSelected() && !enteredUsername.equals(adminUserName)) {
                     loginMessage.setText("Vänligen kryssa i 'Jag har varit snäll' för att logga in!");
                 } else {
                     loginMessage.setText("Fel inloggningsuppgifter!");
@@ -121,7 +126,8 @@ public class Login {
                 }
             }
         });
+
+
+
     }
-
-
 }
