@@ -3,23 +3,83 @@ package org.example;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Arrays;
+import java.io.File;
+import java.util.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.HashMap;
 
 public class Login {
     JFrame logInFrame;
     private JPanel loginPanel;
-    private JTextField användarField;
-    private JCheckBox jagHarVaritSnällCheckBox;
+    private JTextField userField;
+    private JCheckBox iHaveBeenGoodCheckBox;
     private JButton logInButton;
     private JButton registreraButton;
     private JLabel loginMessage;
     private JPasswordField passwordField1;
-    private String adminAnvändarnamn = "Julen";
-    private String adminLösenord = "2023";
-    HashMap<String, String> användarUppgifter = new HashMap<>();
+    private String adminUserName = "Julen";
+    private String adminPassword = "2023";
 
+    Map<String, String> userCredentials;
 
+    ArrayList<Kid> kidObjList = new ArrayList<>(); // HÄR LADDAS ALLA BARN IN TILL NÄR LOGIN LADDAS
+
+    public void loadAllData() {
+        userCredentials = readUserCredentials("Kids.csv");
+        loadWishLists("wish_list.txt", userCredentials);
+        System.out.println(kidObjList);
+        // Allt ska nu va sparat under kidObjList
+    }
+
+    private Map<String, String> readUserCredentials(String filePath) {
+        Map<String, String> userCredentials = new HashMap<>();
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+            String line;
+            reader.readLine();//Hoppa överförsta raden
+            while ((line = reader.readLine()) != null) {
+                System.out.println(line);
+                String[] parts = line.split(",");
+                String username = parts[1].trim();
+                String password = parts[2].trim();
+                userCredentials.put(username, password);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return userCredentials;
+    }
+
+    private void loadWishLists(String filePath, Map<String, String> userCredentials) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath)))
+        {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] variables = line.split(",");
+                String name = variables[0];
+
+                //Kollar vilket konto som finns med samma namn som wishlist.
+                if (userCredentials.containsKey(name)) {
+                    String password = userCredentials.get(name);
+                    HashMap<String, Boolean> wishes = new HashMap<>();
+                    for (int varNum = 1; varNum < variables.length; varNum += 2) {
+                        String wishName = variables[varNum];
+                        boolean wishStatus = Boolean.valueOf(variables[varNum + 1]);
+                        wishes.put(wishName, wishStatus);
+                    }
+
+                    // Skapa Kid-objekt och lägg till i listan
+                    Kid kid = new Kid(name, password, wishes);
+                    kidObjList.add(kid);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     public Login()
     {
@@ -30,36 +90,38 @@ public class Login {
         logInFrame.setResizable(false);
         logInFrame.setVisible(true);
 
-        logInButton.addActionListener(new ActionListener() {
-         @Override
-          public void actionPerformed(ActionEvent e) {
-             String användarnamn = användarField.getText();
-             String lösenord = new String(passwordField1.getPassword());
-              if (användarnamn.equals(adminAnvändarnamn) && lösenord.equals(adminLösenord)) {
-                  new TomtensView();
-              } else if(jagHarVaritSnällCheckBox.isSelected()) {
-                 if (användarUppgifter.containsKey(användarnamn) && användarUppgifter.get(användarnamn).equals(lösenord)) {
-                     loginMessage.setText("You are logged in!");
-                     new TomtensView();
+        loadAllData();
 
-                 } else {
-                     JOptionPane.showMessageDialog(null, "Fel inloggningsuppgifter!");
-                     användarField.setText("");
-                     passwordField1.setText("");
-                 }
-             }else{
-                 JOptionPane.showMessageDialog(null, "Du måste kryssa i 'Jag har varit snäll' för att logga in!");
-                 användarField.setText("");
-                 passwordField1.setText("");
-             }
-
-          }
-        });
         registreraButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                new Register(userCredentials);
             }
         });
 
+        logInButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String enteredUsername = userField.getText();
+                String enteredPassword = passwordField1.getText();
+
+                if (enteredUsername.equals(adminUserName) && enteredPassword.equals(adminPassword)) {
+                    new TomtensView(kidObjList); // FEED KIDS WITH THEIR WISHLIST.
+                    logInFrame.dispose();
+                } else if (userCredentials.containsKey(enteredUsername) &&
+                        userCredentials.get(enteredUsername).equals(enteredPassword) && iHaveBeenGoodCheckBox.isSelected()) {
+                    Wishlist wishlist = new Wishlist(enteredUsername);
+                    logInFrame.dispose();
+                } else if (!iHaveBeenGoodCheckBox.isSelected() && !enteredUsername.equals(adminUserName)){
+                    loginMessage.setText("Vänligen kryssa i 'Jag har varit snäll' för att logga in!");
+                } else {
+                    loginMessage.setText("Fel inloggningsuppgifter!");
+                    userField.setText("");
+                    passwordField1.setText("");
+                }
+            }
+        });
     }
+
+
 }
