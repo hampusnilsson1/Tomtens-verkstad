@@ -1,6 +1,5 @@
 package org.example;
 
-import javax.sound.sampled.Clip;
 import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
@@ -13,12 +12,13 @@ import java.util.Map;
 public class TomtensView extends JFrame{
     JFrame tomtensViewFrame;
     private JPanel tomtensView;
-    private JButton stock;
+    private JButton inStock;
     private JList wishesJList;
     private JList<String> kidsJList;
     private JButton logOut;
     private JPanel kidScrollPanel;
     private JButton skickaBtn;
+    private JButton stock;
     DefaultListModel<String> kidsListModel;
     DefaultListModel<String> wishesListModel;
 
@@ -50,7 +50,7 @@ public class TomtensView extends JFrame{
 
 
 
-        stock.addActionListener(new ActionListener() {
+        inStock.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 LagerCheck lagerCheck = new LagerCheck(wishesListModel);
