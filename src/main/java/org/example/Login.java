@@ -115,7 +115,7 @@ public class Login {
                     logInFrame.dispose();
                 } else if (userCredentials.containsKey(enteredUsername) &&
                         userCredentials.get(enteredUsername).equals(enteredPassword) && iHaveBeenGoodCheckBox.isSelected()) {
-                    Wishlist wishlist = new Wishlist(enteredUsername);
+                    Wishlist wishlist = new Wishlist(enteredUsername,musicPlayer);
                     logInFrame.dispose();
                 } else if (!iHaveBeenGoodCheckBox.isSelected() && !enteredUsername.equals(adminUserName)) {
                     loginMessage.setText("Vänligen kryssa i 'Jag har varit snäll' för att logga in!");
