@@ -1,29 +1,50 @@
-freddan123,Sminkset,false,Actionfigur,false,TV-Spel,false,Hörlurar,false
-kalle
-kulan,Sockar,false,Spelkonsol,false,Spelkonsol,false,Spelkonsol,false,Spelkonsol,false
-gustav
-niklas
-kallekula
-kulan
-hejhopp
-eaglerider,Spelkonsol,false,iPhone,false,Bok,false,Actionfigur,false,Jacka,false,Hörlurar,false,Sällskapspel,false,Frimärken,false,Nimbus 2000,false
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
+freddan123,Nallebjörn,false,Fotboll,false,iPad,false,Sminkset,false,Spelkonsol,false,iPhone,false,Stickad Tröja,false
+kalle,Fotboll,false,Actionfigur,false,Sminkset,false,Sockar,false,Spelkonsol,false,iPhone,false
+kulan,Fotboll,false,iPad,false,Sminkset,false,Sockar,false,Nimbus 2000,false,iPhone,false
+gustav,Nallebjörn,false,Fotboll,false,Docka,false,Spelkonsol,false,iPhone,false
+niklas,iPad,false,Actionfigur,false,Sockar,false,Spelkonsol,false,iPhone,false
+kallekula,Nallebjörn,false,Fotboll,false,Docka,false,Nimbus 2000,false
+kulan123,Actionfigur,false,Sminkset,false,Docka,false,Nimbus 2000,false
+hejhopp,Nallebjörn,false,Fotboll,false,Sockar,false,iPhone,false,Stickad Tröja,false
+Lotta,iPad,false,Actionfigur,false,Sockar,false,Spelkonsol,false,Stickad Tröja,false
+Pelle,Fotboll,false,iPad,false,Sminkset,false,Spelkonsol,false,Stickad Tröja,false
+Calle,Nallebjörn,false,Fotboll,false,Sminkset,false,iPhone,false
+Torsten,Fotboll,false,Actionfigur,false,Docka,false,Nimbus 2000,false
+Lotta123,Nallebjörn,false,Sminkset,false,Docka,false,Nimbus 2000,false
+Patrik,Fotboll,false,Actionfigur,false,Sockar,false,iPhone,false
+Jenny,Nallebjörn,false,iPad,false,Sockar,false,Spelkonsol,false
+Ola,iPad,false,Actionfigur,false,Sminkset,false,Spelkonsol,false,Stickad Tröja,false
+eaglerider,Nallebjörn,false,Sminkset,false,Spelkonsol,false,Stickad Tröja,false
+Gabriella,Fotboll,false,Sminkset,false,Docka,false,iPhone,false
+Gina,Nallebjörn,false,Sminkset,false,Docka,false,Nimbus 2000,false
+Greta,iPad,false,Actionfigur,false,Sockar,false,Nimbus 2000,false
+Filip,Fotboll,false,Sminkset,false,Sockar,false,Spelkonsol,false
+Hulda,Nallebjörn,false,Fotboll,false,Docka,false,Spelkonsol,false
+Johanna,Actionfigur,false,Sminkset,false,Docka,false,Nimbus 2000,false
+Jolin,Fotboll,false,Actionfigur,false,Sockar,false,iPhone,false,Stickad Tröja,false
+Isaac,Nallebjörn,false,Fotboll,false,Sockar,false,Nimbus 2000,false
+Katja,iPad,false,Actionfigur,false,Sockar,false,Spelkonsol,false
+John,iPad,false,Actionfigur,false,Sminkset,false,Spelkonsol,false
+Kira,Nallebjörn,false,Fotboll,false,Sminkset,false,Nimbus 2000,false
+Klara,Fotboll,false,Sminkset,false,Sockar,false,Docka,false,Stickad Tröja,false
+Lana,Fotboll,false,Actionfigur,false,Sockar,false,iPhone,false,Stickad Tröja,false
+Ahmed,Nallebjörn,false,Fotboll,false,Sockar,false,Nimbus 2000,false
+Spöket,iPad,false,Actionfigur,false,Sockar,false,Nimbus 2000,false
+Lia,iPad,false,Actionfigur,false,Sminkset,false,Spelkonsol,false,Stickad Tröja,false
+Lina,Fotboll,false,iPad,false,Sminkset,false,Docka,false,iPhone,false
+Oskar,Nallebjörn,false,Fotboll,false,Sockar,false,Nimbus 2000,false
+Aaron,iPad,false,Actionfigur,false,Sminkset,false,Spelkonsol,false,Stickad Tröja,false
+Bodil,iPad,false,Sminkset,false,Sockar,false,Docka,false,iPhone,false,Stickad Tröja,false
+Beata,Nallebjörn,false,Fotboll,false,Sockar,false,Nimbus 2000,false
+Sixten,iPad,false,Actionfigur,false,Sminkset,false,Spelkonsol,false,Stickad Tröja,false
+Bonnie,Fotboll,false,iPad,false,Sminkset,false,Docka,false,Nimbus 2000,false
+Cajsa,Nallebjörn,false,Fotboll,false,iPad,false,Docka,false,iPhone,false
+August,Actionfigur,false,Sminkset,false,Sockar,false,Nimbus 2000,false,Stickad Tröja,false
+Alfred,iPad,false,Actionfigur,false,Sminkset,false,Spelkonsol,false,iPhone,false
+Cornelia,Nallebjörn,false,Fotboll,false,iPad,false,Spelkonsol,false
+Doris,iPad,false,Actionfigur,false,Sockar,false,Docka,false,Nimbus 2000,false
+Ebba,Fotboll,false,iPad,false,Sminkset,false,Sockar,false,iPhone,false
+Ben,Nallebjörn,false,Fotboll,false,iPad,false,Sockar,false,Nimbus 2000,false
+Eden,iPad,false,Actionfigur,false,Sminkset,false,Docka,false,Stickad Tröja,false
+Hanna,Nallebjörn,false,Fotboll,false,iPad,false,Sminkset,false,Stickad Tröja,false
+Hilda,Fotboll,false,iPad,false,Sminkset,false,Docka,false,Nimbus 2000,false
