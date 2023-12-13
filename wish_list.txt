@@ -6,7 +6,7 @@ niklas
 kallekula
 kulan
 hejhopp
-eaglerider,Spelkonsol,false,Spelkonsol,false
+eaglerider,Spelkonsol,false,iPhone,false,Bok,false,Actionfigur,false,Jacka,false,Hörlurar,false,Sällskapspel,false,Frimärken,false,Nimbus 2000,false
 1
 2
 3
