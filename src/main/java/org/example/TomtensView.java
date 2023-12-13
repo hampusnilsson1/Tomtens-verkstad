@@ -19,6 +19,7 @@ public class TomtensView extends JFrame{
     private JPanel kidScrollPanel;
     private JButton skickaBtn;
     private JButton stock;
+    private JRadioButton mute;
     DefaultListModel<String> kidsListModel;
     DefaultListModel<String> wishesListModel;
 
@@ -34,6 +35,7 @@ public class TomtensView extends JFrame{
         tomtensViewFrame.setVisible(true);
         tomtensViewFrame.setContentPane(tomtensView);
         tomtensViewFrame.setResizable(false);
+
 
         wishesListModel = new DefaultListModel<>();
         wishesJList.setModel(wishesListModel);
@@ -110,6 +112,16 @@ public class TomtensView extends JFrame{
                     }
                 });
 
+            }
+        });
+        mute.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if(mute.isSelected()){
+                    musicPlayer.stopMusic();
+                }else{
+                    musicPlayer.startMusic();
+                }
             }
         });
     }

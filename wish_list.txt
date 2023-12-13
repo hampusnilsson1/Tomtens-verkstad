@@ -1,5 +1,5 @@
 <<<<<<< Updated upstream
-freddan123,Sminkset,false,Actionfigur,false,TV-Spel,false,Hörlurar,false
+freddan123,Sminkset,false,Actionfigur,false,TV-Spel,false,Hörlurar,false,Sällskapspel,false,Frimärken,false,Sminkset,false,Actionfigur,false,TV-Spel,false,Hörlurar,false,Sällskapspel,false,Frimärken,false,Sminkset,false,Actionfigur,false,TV-Spel,false,Hörlurar,false,Sällskapspel,false,Frimärken,false,Sminkset,false,Actionfigur,false,TV-Spel,false,Hörlurar,false,Sällskapspel,false,Frimärken,false
 kalle
 kulan,Sockar,false,Spelkonsol,false,Spelkonsol,false,Spelkonsol,false,Spelkonsol,false
 gustav
@@ -29,7 +29,7 @@ eaglerider,Spelkonsol,false,Spelkonsol,false
 19
 20
 =======
-freddan123,Sällskapspel,false,Frimärken,false
+freddan123,Sminkset,false,Actionfigur,false,TV-Spel,false,Hörlurar,false,Sällskapspel,false,Frimärken,false,Sminkset,false,Actionfigur,false,TV-Spel,false,Hörlurar,false,Sällskapspel,false,Frimärken,false,Sminkset,false,Actionfigur,false,TV-Spel,false,Hörlurar,false,Sällskapspel,false,Frimärken,false,Sminkset,false,Actionfigur,false,TV-Spel,false,Hörlurar,false,Sällskapspel,false,Frimärken,false
 kalle,Sminkset,false,iPhone,false,Spelkonsol,false,Actionfigur,false,Fotboll,false,Sockar,false
 kulan,Sminkset,false,iPhone,false,Nimbus 2000,false,Fotboll,false,Sockar,false,iPad,false
 gustav,iPhone,false,Spelkonsol,false,Fotboll,false,Nallebjörn,false,Docka,false

@@ -1,0 +1,19 @@
+Index: src/main/java/org/example/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\nimport java.util.ArrayList;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"VÅR GRUPPUPPGIFT TOMTENSVERKSTAD\");\r\n        Login login = new Login();\r\n        FileHandler fileHandler = new FileHandler();\r\n\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Main.java b/src/main/java/org/example/Main.java
+--- a/src/main/java/org/example/Main.java	
++++ b/src/main/java/org/example/Main.java	
+@@ -6,7 +6,7 @@
+     public static void main(String[] args) {
+         System.out.println("VÅR GRUPPUPPGIFT TOMTENSVERKSTAD");
+         Login login = new Login();
+-        FileHandler fileHandler = new FileHandler();
++        //FileHandler fileHandler = new FileHandler();
+ 
+ 
+     }

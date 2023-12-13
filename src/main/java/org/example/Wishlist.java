@@ -24,6 +24,7 @@ public class Wishlist {
     private JLabel ErrorMessage;
     private JButton Savebutton;
     private JLabel wishlistLabel;
+    private JRadioButton mute;
     File wishlistFile = new File("wish_list_for_kids.txt");
     File theKidsOwnWishlist = new File("wish_list.txt");
     ArrayList<Wish> kidsWishes = new ArrayList<>(); //Array that is used for listing the kids wishes on to the JList.
@@ -31,13 +32,16 @@ public class Wishlist {
     ArrayList<String> tempArray = new ArrayList<>(); // An empty array that is used for saving. When pressing save the JList (listmodel) is
                                                         // loaded on to the array. After that the filewriter reads it into the csv file.
 
-
-    public Wishlist(String enteredUsername) {
+    MusicPlayer musicPlayer;
+    public Wishlist(String enteredUsername, MusicPlayer musicPlayer) {
+        this.musicPlayer= musicPlayer;
         wishList = new JFrame();
         wishList.setSize(900, 500);
         wishList.setVisible(true);
         wishList.setContentPane(panel1);
         wishList.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+
+
 
         if (!Files.exists(Path.of("wish_list_temp.txt"))){      //Creates a temporary file which is used when saving.
             try {
@@ -186,15 +190,22 @@ public class Wishlist {
                     throw new RuntimeException(ex);
                 } finally{
                     Login login = new Login();
+                    musicPlayer.stopMusic();
                     wishList.dispose();
                 }
             }
         });
 
-
-
-
-
+        mute.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if(mute.isSelected()){
+                    musicPlayer.stopMusic();
+                }else {
+                    musicPlayer.startMusic();
+                }
+            }
+        });
     }
 
     public void listWishList() {
