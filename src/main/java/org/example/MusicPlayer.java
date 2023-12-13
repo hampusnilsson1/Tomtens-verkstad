@@ -7,7 +7,7 @@ import java.io.IOException;
 public class MusicPlayer {
     Clip clip;
     public void startMusic(){
-        File audioFile = new File("C:\\Users\\ASUS\\Downloads\\AnyConv.com__Jingle Bells (1)-[AudioTrimmer.com].wav");
+        File audioFile = new File("AnyConv.com__Jingle Bells (1)-[AudioTrimmer.com].wav");
         try {
             AudioInputStream audioStream = AudioSystem.getAudioInputStream(audioFile);
             clip = AudioSystem.getClip();
