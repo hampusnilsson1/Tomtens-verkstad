@@ -44,6 +44,16 @@ public class Kid {
         KidName = kidName;
     }
 
+    public String getWishesCSV(){
+        String wishesCSV = getWishList().toString().replaceAll("=",",") // bytar ut = tecknet som kommer mellan String och boolean när man listar ut wishen till ,
+                                                   .replaceAll("\\{", "") // tar bort start tecknet som kommer när man listar ut alla wishes
+                                                   .replaceAll("}", "") // Tar bort slut tecknet som kommer när man listar ut alla wishes
+                                                   .replaceAll(", ",","); // Tar bort mellanrum som kommer efter , när man listar alla wishes
+
+        return (getKidName()+","+wishesCSV);
+    }
+
+
     public HashMap<String, Boolean> getWishList() {
         return wishList;
     }
