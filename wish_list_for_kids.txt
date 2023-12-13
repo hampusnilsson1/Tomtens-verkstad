@@ -6,7 +6,7 @@
 5,Sockar,40
 6,Docka,30
 7,Spelkonsol,10
-8,Nimbus 2000,1
+8,Nimbus 2000,0
 9,iPhone, 20
 10,Stickad Tröja,5000
 11,Halsband,8

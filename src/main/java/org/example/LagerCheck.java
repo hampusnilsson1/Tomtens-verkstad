@@ -77,6 +77,8 @@ public class LagerCheck {
         checkFrame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         checkFrame.setVisible(true);
 
+        //Sätter namnen för de olika componenterna i Formen. Detta så att jag i getCompenentsByName funktionen kan å in och hitta
+        // den JLabel som jag vill ändra texten på.
         wishName1.setName("wishName1");
         wishName2.setName("wishName2");
         wishName3.setName("wishName3");
@@ -111,14 +113,16 @@ public class LagerCheck {
         status10.setName("status10");
 
         
-        for (JLabel label : wishLabels) {
+        for (JLabel label : wishLabels) { //Detta nollar texten i JLabels
             label.setText("");
         }
-        for (JLabel label : statusLabels) {
+        for (JLabel label : statusLabels) { // Samma sak.
             label.setText("");
         }
 
 
+
+        //För att fylla ut alla JLabels i vänstra halvan där alla önskningarna ska stå.
         for (int i = 0; i < wishesListModel.size() && i < 10; i++) {
             String wish = (String) wishesListModel.get(i);
             JLabel wishLabel = (JLabel) getComponentByName("wish" + (i + 1));
@@ -135,12 +139,16 @@ public class LagerCheck {
 
 
 
+
+
+    //Funktion som hittar en specifik JLabel och ger tillbaka den som en component tillbaka till
+    //for loopen ovanför. Den går igenom hela "trädet" av components och om ett namn matchar med
+    //det man jämför med så skickas den komponenten tillbaka till rad 128.
     public Component getComponentByName(String name) {
         return findComponentByName(panel1, name);
     }
 
     private Component findComponentByName(Component component, String name) {
-        System.out.println("Checking component: " + component.getName());
         if (component.getName() != null && component.getName().equals(name)) {
             return component;
         }
@@ -148,22 +156,24 @@ public class LagerCheck {
         if (component instanceof Container) {
             Container container = (Container) component;
             for (Component child : container.getComponents()) {
-                System.out.println("Checking in container: " + container.getName() + ", Child: " + child.getName()); // Debug print
                 Component found = findComponentByName(child, name);
                 if (found != null) {
                     return found;
                 }
             }
         }
-
         return null;
-
-
-
-
-
     }
 
+
+
+
+
+
+
+    //Funktion som tar önskningen som sitter i JLabel och jämför den med önskningarna som är i hashmapen jag har gjort
+    //nedanför (se readWishQuantities). Därefter kollas kvantiteten och beroende på om den är noll eller ej
+    //så sätts texten i JLabels i högra halvan av fönstret till "Finns i lager" eller "Ej i lager".
     private void updateStatus () {
         File file = new File("wish_list_for_kids.txt");
         Map<String, Integer> wishQuantities = readWishQuantities(file);
@@ -183,6 +193,10 @@ public class LagerCheck {
         }
     }
 
+
+
+    //Läser av txt filen wish_list_for_kids.txt och sätter in önskningen samt kvantiteten av den önskningen
+    //i en hashmap.
     private Map<String, Integer> readWishQuantities (File file){
         Map<String, Integer> wishQuantities = new HashMap<>();
 
