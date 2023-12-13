@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 freddan123,Sminkset,false,Actionfigur,false,TV-Spel,false,Hörlurar,false
 kalle
 kulan,Sockar,false,Spelkonsol,false,Spelkonsol,false,Spelkonsol,false,Spelkonsol,false
@@ -27,3 +28,55 @@ eaglerider,Spelkonsol,false,Spelkonsol,false
 18
 19
 20
+=======
+freddan123,Sällskapspel,false,Frimärken,false
+kalle,Sminkset,false,iPhone,false,Spelkonsol,false,Actionfigur,false,Fotboll,false,Sockar,false
+kulan,Sminkset,false,iPhone,false,Nimbus 2000,false,Fotboll,false,Sockar,false,iPad,false
+gustav,iPhone,false,Spelkonsol,false,Fotboll,false,Nallebjörn,false,Docka,false
+niklas,iPhone,false,Spelkonsol,false,Actionfigur,false,Sockar,false,iPad,false
+kallekula,Nimbus 2000,false,Fotboll,false,Nallebjörn,false,Docka,false
+kulan123,Sminkset,false,Nimbus 2000,false,Actionfigur,false,Docka,false
+hejhopp,iPhone,false,Fotboll,false,Nallebjörn,false,Sockar,false,Stickad Tröja,false
+Lotta,Spelkonsol,false,Actionfigur,false,Sockar,false,Stickad Tröja,false,iPad,false
+Pelle,Sminkset,true,Spelkonsol,true,Fotboll,false,Stickad Tröja,false,iPad,false
+Calle,Sminkset,false,iPhone,false,Fotboll,false,Nallebjörn,false
+Torsten,Nimbus 2000,false,Actionfigur,false,Fotboll,false,Docka,false
+Lotta123,Sminkset,false,Nimbus 2000,false,Nallebjörn,false,Docka,false
+Patrik,iPhone,false,Actionfigur,false,Fotboll,false,Sockar,false
+Jenny,Spelkonsol,false,Nallebjörn,false,Sockar,false,iPad,false
+Ola,Sminkset,false,Spelkonsol,false,Actionfigur,false,Stickad Tröja,false,iPad,false
+eaglerider,Sminkset,false,Spelkonsol,false,Nallebjörn,false,Stickad Tröja,false
+Gabriella,Sminkset,false,iPhone,false,Fotboll,false,Docka,false
+Gina,Sminkset,false,Nimbus 2000,false,Nallebjörn,false,Docka,false
+Greta,Nimbus 2000,false,Actionfigur,false,Sockar,false,iPad,false
+Filip,Sminkset,false,Spelkonsol,false,Fotboll,false,Sockar,false
+Hulda,Spelkonsol,false,Fotboll,false,Nallebjörn,false,Docka,false
+Johanna,Sminkset,false,Nimbus 2000,false,Actionfigur,false,Docka,false
+Jolin,iPhone,false,Actionfigur,false,Fotboll,false,Sockar,false,Stickad Tröja,false
+Isaac,Nimbus 2000,false,Fotboll,false,Nallebjörn,false,Sockar,false
+Katja,Spelkonsol,false,Actionfigur,false,Sockar,false,iPad,false
+John,Sminkset,false,Spelkonsol,false,Actionfigur,false,iPad,false
+Kira,Sminkset,false,Nimbus 2000,false,Fotboll,false,Nallebjörn,false
+Klara,Sminkset,false,Fotboll,false,Sockar,false,Stickad Tröja,false,Docka,false
+Lana,iPhone,false,Actionfigur,false,Fotboll,false,Sockar,false,Stickad Tröja,false
+Ahmed,Nimbus 2000,false,Fotboll,false,Nallebjörn,false,Sockar,false
+Spöket,Nimbus 2000,false,Actionfigur,false,Sockar,false,iPad,false
+Lia,Sminkset,false,Spelkonsol,false,Actionfigur,false,Stickad Tröja,false,iPad,false
+Lina,Sminkset,false,iPhone,false,Fotboll,false,iPad,false,Docka,false
+Oskar,Nimbus 2000,false,Fotboll,false,Nallebjörn,false,Sockar,false
+Aaron,Sminkset,false,Spelkonsol,false,Actionfigur,false,Stickad Tröja,false,iPad,false
+Bodil,Sminkset,false,iPhone,false,Sockar,false,Stickad Tröja,false,iPad,false,Docka,false
+Beata,Nimbus 2000,false,Fotboll,false,Nallebjörn,false,Sockar,false
+Sixten,Sminkset,false,Spelkonsol,false,Actionfigur,false,Stickad Tröja,false,iPad,false
+Bonnie,Sminkset,false,Nimbus 2000,false,Fotboll,false,iPad,false,Docka,false
+Cajsa,iPhone,false,Fotboll,false,Nallebjörn,false,iPad,false,Docka,false
+August,Sminkset,false,Nimbus 2000,false,Actionfigur,false,Sockar,false,Stickad Tröja,false
+Alfred,Sminkset,false,iPhone,false,Spelkonsol,false,Actionfigur,false,iPad,false
+Cornelia,Spelkonsol,false,Fotboll,false,Nallebjörn,false,iPad,false
+Doris,Nimbus 2000,false,Actionfigur,false,Sockar,false,iPad,false,Docka,false
+Ebba,Sminkset,false,iPhone,false,Fotboll,false,Sockar,false,iPad,false
+Ben,Nimbus 2000,false,Fotboll,false,Nallebjörn,false,Sockar,false,iPad,false
+Eden,Sminkset,false,Actionfigur,false,Stickad Tröja,false,iPad,false,Docka,false
+Hanna,Sminkset,false,Fotboll,false,Nallebjörn,false,Stickad Tröja,false,iPad,false
+Hilda,Sminkset,false,Nimbus 2000,false,Fotboll,false,iPad,false,Docka,false
+>>>>>>> Stashed changes

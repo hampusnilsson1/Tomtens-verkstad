@@ -1,0 +1,224 @@
+Index: wish_list.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>freddan123,Nallebjörn,false,Fotboll,false,iPad,false,Sminkset,false,Spelkonsol,false,iPhone,false,Stickad Tröja,false\r\nkalle,Fotboll,false,Actionfigur,false,Sminkset,false,Sockar,false,Spelkonsol,false,iPhone,false\r\nkulan,Fotboll,false,iPad,false,Sminkset,false,Sockar,false,Nimbus 2000,false,iPhone,false\r\ngustav,Nallebjörn,false,Fotboll,false,Docka,false,Spelkonsol,false,iPhone,false\r\nniklas,iPad,false,Actionfigur,false,Sockar,false,Spelkonsol,false,iPhone,false\r\nkallekula,Nallebjörn,false,Fotboll,false,Docka,false,Nimbus 2000,false\r\nkulan123,Actionfigur,false,Sminkset,false,Docka,false,Nimbus 2000,false\r\nhejhopp,Nallebjörn,false,Fotboll,false,Sockar,false,iPhone,false,Stickad Tröja,false\r\nLotta,iPad,false,Actionfigur,false,Sockar,false,Spelkonsol,false,Stickad Tröja,false\r\nPelle,Fotboll,false,iPad,false,Sminkset,false,Spelkonsol,false,Stickad Tröja,false\r\nCalle,Nallebjörn,false,Fotboll,false,Sminkset,false,iPhone,false\r\nTorsten,Fotboll,false,Actionfigur,false,Docka,false,Nimbus 2000,false\r\nLotta123,Nallebjörn,false,Sminkset,false,Docka,false,Nimbus 2000,false\r\nPatrik,Fotboll,false,Actionfigur,false,Sockar,false,iPhone,false\r\nJenny,Nallebjörn,false,iPad,false,Sockar,false,Spelkonsol,false\r\nOla,iPad,false,Actionfigur,false,Sminkset,false,Spelkonsol,false,Stickad Tröja,false\r\neaglerider,Nallebjörn,false,Sminkset,false,Spelkonsol,false,Stickad Tröja,false\r\nGabriella,Fotboll,false,Sminkset,false,Docka,false,iPhone,false\r\nGina,Nallebjörn,false,Sminkset,false,Docka,false,Nimbus 2000,false\r\nGreta,iPad,false,Actionfigur,false,Sockar,false,Nimbus 2000,false\r\nFilip,Fotboll,false,Sminkset,false,Sockar,false,Spelkonsol,false\r\nHulda,Nallebjörn,false,Fotboll,false,Docka,false,Spelkonsol,false\r\nJohanna,Actionfigur,false,Sminkset,false,Docka,false,Nimbus 2000,false\r\nJolin,Fotboll,false,Actionfigur,false,Sockar,false,iPhone,false,Stickad Tröja,false\r\nIsaac,Nallebjörn,false,Fotboll,false,Sockar,false,Nimbus 2000,false\r\nKatja,iPad,false,Actionfigur,false,Sockar,false,Spelkonsol,false\r\nJohn,iPad,false,Actionfigur,false,Sminkset,false,Spelkonsol,false\r\nKira,Nallebjörn,false,Fotboll,false,Sminkset,false,Nimbus 2000,false\r\nKlara,Fotboll,false,Sminkset,false,Sockar,false,Docka,false,Stickad Tröja,false\r\nLana,Fotboll,false,Actionfigur,false,Sockar,false,iPhone,false,Stickad Tröja,false\r\nAhmed,Nallebjörn,false,Fotboll,false,Sockar,false,Nimbus 2000,false\r\nSpöket,iPad,false,Actionfigur,false,Sockar,false,Nimbus 2000,false\r\nLia,iPad,false,Actionfigur,false,Sminkset,false,Spelkonsol,false,Stickad Tröja,false\r\nLina,Fotboll,false,iPad,false,Sminkset,false,Docka,false,iPhone,false\r\nOskar,Nallebjörn,false,Fotboll,false,Sockar,false,Nimbus 2000,false\r\nAaron,iPad,false,Actionfigur,false,Sminkset,false,Spelkonsol,false,Stickad Tröja,false\r\nBodil,iPad,false,Sminkset,false,Sockar,false,Docka,false,iPhone,false,Stickad Tröja,false\r\nBeata,Nallebjörn,false,Fotboll,false,Sockar,false,Nimbus 2000,false\r\nSixten,iPad,false,Actionfigur,false,Sminkset,false,Spelkonsol,false,Stickad Tröja,false\r\nBonnie,Fotboll,false,iPad,false,Sminkset,false,Docka,false,Nimbus 2000,false\r\nCajsa,Nallebjörn,false,Fotboll,false,iPad,false,Docka,false,iPhone,false\r\nAugust,Actionfigur,false,Sminkset,false,Sockar,false,Nimbus 2000,false,Stickad Tröja,false\r\nAlfred,iPad,false,Actionfigur,false,Sminkset,false,Spelkonsol,false,iPhone,false\r\nCornelia,Nallebjörn,false,Fotboll,false,iPad,false,Spelkonsol,false\r\nDoris,iPad,false,Actionfigur,false,Sockar,false,Docka,false,Nimbus 2000,false\r\nEbba,Fotboll,false,iPad,false,Sminkset,false,Sockar,false,iPhone,false\r\nBen,Nallebjörn,false,Fotboll,false,iPad,false,Sockar,false,Nimbus 2000,false\r\nEden,iPad,false,Actionfigur,false,Sminkset,false,Docka,false,Stickad Tröja,false\r\nHanna,Nallebjörn,false,Fotboll,false,iPad,false,Sminkset,false,Stickad Tröja,false\r\nHilda,Fotboll,false,iPad,false,Sminkset,false,Docka,false,Nimbus 2000,false
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wish_list.txt b/wish_list.txt
+--- a/wish_list.txt	(revision 24d406eadcd7f93c10c87840c09cd96526e97a6a)
++++ b/wish_list.txt	(date 1702467345760)
+@@ -1,50 +1,50 @@
+-freddan123,Nallebjörn,false,Fotboll,false,iPad,false,Sminkset,false,Spelkonsol,false,iPhone,false,Stickad Tröja,false
+-kalle,Fotboll,false,Actionfigur,false,Sminkset,false,Sockar,false,Spelkonsol,false,iPhone,false
+-kulan,Fotboll,false,iPad,false,Sminkset,false,Sockar,false,Nimbus 2000,false,iPhone,false
+-gustav,Nallebjörn,false,Fotboll,false,Docka,false,Spelkonsol,false,iPhone,false
+-niklas,iPad,false,Actionfigur,false,Sockar,false,Spelkonsol,false,iPhone,false
+-kallekula,Nallebjörn,false,Fotboll,false,Docka,false,Nimbus 2000,false
+-kulan123,Actionfigur,false,Sminkset,false,Docka,false,Nimbus 2000,false
+-hejhopp,Nallebjörn,false,Fotboll,false,Sockar,false,iPhone,false,Stickad Tröja,false
+-Lotta,iPad,false,Actionfigur,false,Sockar,false,Spelkonsol,false,Stickad Tröja,false
+-Pelle,Fotboll,false,iPad,false,Sminkset,false,Spelkonsol,false,Stickad Tröja,false
+-Calle,Nallebjörn,false,Fotboll,false,Sminkset,false,iPhone,false
+-Torsten,Fotboll,false,Actionfigur,false,Docka,false,Nimbus 2000,false
+-Lotta123,Nallebjörn,false,Sminkset,false,Docka,false,Nimbus 2000,false
+-Patrik,Fotboll,false,Actionfigur,false,Sockar,false,iPhone,false
+-Jenny,Nallebjörn,false,iPad,false,Sockar,false,Spelkonsol,false
+-Ola,iPad,false,Actionfigur,false,Sminkset,false,Spelkonsol,false,Stickad Tröja,false
+-eaglerider,Nallebjörn,false,Sminkset,false,Spelkonsol,false,Stickad Tröja,false
+-Gabriella,Fotboll,false,Sminkset,false,Docka,false,iPhone,false
+-Gina,Nallebjörn,false,Sminkset,false,Docka,false,Nimbus 2000,false
+-Greta,iPad,false,Actionfigur,false,Sockar,false,Nimbus 2000,false
+-Filip,Fotboll,false,Sminkset,false,Sockar,false,Spelkonsol,false
+-Hulda,Nallebjörn,false,Fotboll,false,Docka,false,Spelkonsol,false
+-Johanna,Actionfigur,false,Sminkset,false,Docka,false,Nimbus 2000,false
+-Jolin,Fotboll,false,Actionfigur,false,Sockar,false,iPhone,false,Stickad Tröja,false
+-Isaac,Nallebjörn,false,Fotboll,false,Sockar,false,Nimbus 2000,false
+-Katja,iPad,false,Actionfigur,false,Sockar,false,Spelkonsol,false
+-John,iPad,false,Actionfigur,false,Sminkset,false,Spelkonsol,false
+-Kira,Nallebjörn,false,Fotboll,false,Sminkset,false,Nimbus 2000,false
+-Klara,Fotboll,false,Sminkset,false,Sockar,false,Docka,false,Stickad Tröja,false
+-Lana,Fotboll,false,Actionfigur,false,Sockar,false,iPhone,false,Stickad Tröja,false
+-Ahmed,Nallebjörn,false,Fotboll,false,Sockar,false,Nimbus 2000,false
+-Spöket,iPad,false,Actionfigur,false,Sockar,false,Nimbus 2000,false
+-Lia,iPad,false,Actionfigur,false,Sminkset,false,Spelkonsol,false,Stickad Tröja,false
+-Lina,Fotboll,false,iPad,false,Sminkset,false,Docka,false,iPhone,false
+-Oskar,Nallebjörn,false,Fotboll,false,Sockar,false,Nimbus 2000,false
+-Aaron,iPad,false,Actionfigur,false,Sminkset,false,Spelkonsol,false,Stickad Tröja,false
+-Bodil,iPad,false,Sminkset,false,Sockar,false,Docka,false,iPhone,false,Stickad Tröja,false
+-Beata,Nallebjörn,false,Fotboll,false,Sockar,false,Nimbus 2000,false
+-Sixten,iPad,false,Actionfigur,false,Sminkset,false,Spelkonsol,false,Stickad Tröja,false
+-Bonnie,Fotboll,false,iPad,false,Sminkset,false,Docka,false,Nimbus 2000,false
+-Cajsa,Nallebjörn,false,Fotboll,false,iPad,false,Docka,false,iPhone,false
+-August,Actionfigur,false,Sminkset,false,Sockar,false,Nimbus 2000,false,Stickad Tröja,false
+-Alfred,iPad,false,Actionfigur,false,Sminkset,false,Spelkonsol,false,iPhone,false
+-Cornelia,Nallebjörn,false,Fotboll,false,iPad,false,Spelkonsol,false
+-Doris,iPad,false,Actionfigur,false,Sockar,false,Docka,false,Nimbus 2000,false
+-Ebba,Fotboll,false,iPad,false,Sminkset,false,Sockar,false,iPhone,false
+-Ben,Nallebjörn,false,Fotboll,false,iPad,false,Sockar,false,Nimbus 2000,false
+-Eden,iPad,false,Actionfigur,false,Sminkset,false,Docka,false,Stickad Tröja,false
+-Hanna,Nallebjörn,false,Fotboll,false,iPad,false,Sminkset,false,Stickad Tröja,false
+-Hilda,Fotboll,false,iPad,false,Sminkset,false,Docka,false,Nimbus 2000,false
+\ No newline at end of file
++freddan123,Sällskapspel,false,Frimärken,false
++kalle,Sminkset,false,iPhone,false,Spelkonsol,false,Actionfigur,false,Fotboll,false,Sockar,false
++kulan,Sminkset,false,iPhone,false,Nimbus 2000,false,Fotboll,false,Sockar,false,iPad,false
++gustav,iPhone,false,Spelkonsol,false,Fotboll,false,Nallebjörn,false,Docka,false
++niklas,iPhone,false,Spelkonsol,false,Actionfigur,false,Sockar,false,iPad,false
++kallekula,Nimbus 2000,false,Fotboll,false,Nallebjörn,false,Docka,false
++kulan123,Sminkset,false,Nimbus 2000,false,Actionfigur,false,Docka,false
++hejhopp,iPhone,false,Fotboll,false,Nallebjörn,false,Sockar,false,Stickad Tröja,false
++Lotta,Spelkonsol,false,Actionfigur,false,Sockar,false,Stickad Tröja,false,iPad,false
++Pelle,Sminkset,true,Spelkonsol,true,Fotboll,false,Stickad Tröja,false,iPad,false
++Calle,Sminkset,false,iPhone,false,Fotboll,false,Nallebjörn,false
++Torsten,Nimbus 2000,false,Actionfigur,false,Fotboll,false,Docka,false
++Lotta123,Sminkset,false,Nimbus 2000,false,Nallebjörn,false,Docka,false
++Patrik,iPhone,false,Actionfigur,false,Fotboll,false,Sockar,false
++Jenny,Spelkonsol,false,Nallebjörn,false,Sockar,false,iPad,false
++Ola,Sminkset,false,Spelkonsol,false,Actionfigur,false,Stickad Tröja,false,iPad,false
++eaglerider,Sminkset,false,Spelkonsol,false,Nallebjörn,false,Stickad Tröja,false
++Gabriella,Sminkset,false,iPhone,false,Fotboll,false,Docka,false
++Gina,Sminkset,false,Nimbus 2000,false,Nallebjörn,false,Docka,false
++Greta,Nimbus 2000,false,Actionfigur,false,Sockar,false,iPad,false
++Filip,Sminkset,false,Spelkonsol,false,Fotboll,false,Sockar,false
++Hulda,Spelkonsol,false,Fotboll,false,Nallebjörn,false,Docka,false
++Johanna,Sminkset,false,Nimbus 2000,false,Actionfigur,false,Docka,false
++Jolin,iPhone,false,Actionfigur,false,Fotboll,false,Sockar,false,Stickad Tröja,false
++Isaac,Nimbus 2000,false,Fotboll,false,Nallebjörn,false,Sockar,false
++Katja,Spelkonsol,false,Actionfigur,false,Sockar,false,iPad,false
++John,Sminkset,false,Spelkonsol,false,Actionfigur,false,iPad,false
++Kira,Sminkset,false,Nimbus 2000,false,Fotboll,false,Nallebjörn,false
++Klara,Sminkset,false,Fotboll,false,Sockar,false,Stickad Tröja,false,Docka,false
++Lana,iPhone,false,Actionfigur,false,Fotboll,false,Sockar,false,Stickad Tröja,false
++Ahmed,Nimbus 2000,false,Fotboll,false,Nallebjörn,false,Sockar,false
++Spöket,Nimbus 2000,false,Actionfigur,false,Sockar,false,iPad,false
++Lia,Sminkset,false,Spelkonsol,false,Actionfigur,false,Stickad Tröja,false,iPad,false
++Lina,Sminkset,false,iPhone,false,Fotboll,false,iPad,false,Docka,false
++Oskar,Nimbus 2000,false,Fotboll,false,Nallebjörn,false,Sockar,false
++Aaron,Sminkset,false,Spelkonsol,false,Actionfigur,false,Stickad Tröja,false,iPad,false
++Bodil,Sminkset,false,iPhone,false,Sockar,false,Stickad Tröja,false,iPad,false,Docka,false
++Beata,Nimbus 2000,false,Fotboll,false,Nallebjörn,false,Sockar,false
++Sixten,Sminkset,false,Spelkonsol,false,Actionfigur,false,Stickad Tröja,false,iPad,false
++Bonnie,Sminkset,false,Nimbus 2000,false,Fotboll,false,iPad,false,Docka,false
++Cajsa,iPhone,false,Fotboll,false,Nallebjörn,false,iPad,false,Docka,false
++August,Sminkset,false,Nimbus 2000,false,Actionfigur,false,Sockar,false,Stickad Tröja,false
++Alfred,Sminkset,false,iPhone,false,Spelkonsol,false,Actionfigur,false,iPad,false
++Cornelia,Spelkonsol,false,Fotboll,false,Nallebjörn,false,iPad,false
++Doris,Nimbus 2000,false,Actionfigur,false,Sockar,false,iPad,false,Docka,false
++Ebba,Sminkset,false,iPhone,false,Fotboll,false,Sockar,false,iPad,false
++Ben,Nimbus 2000,false,Fotboll,false,Nallebjörn,false,Sockar,false,iPad,false
++Eden,Sminkset,false,Actionfigur,false,Stickad Tröja,false,iPad,false,Docka,false
++Hanna,Sminkset,false,Fotboll,false,Nallebjörn,false,Stickad Tröja,false,iPad,false
++Hilda,Sminkset,false,Nimbus 2000,false,Fotboll,false,iPad,false,Docka,false
+\ No newline at end of file
+Index: src/main/java/org/example/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\nimport java.util.ArrayList;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"VÅR GRUPPUPPGIFT TOMTENSVERKSTAD\");\r\n        Login login = new Login();\r\n        FileHandler fileHandler = new FileHandler();\r\n\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Main.java b/src/main/java/org/example/Main.java
+--- a/src/main/java/org/example/Main.java	(revision 24d406eadcd7f93c10c87840c09cd96526e97a6a)
++++ b/src/main/java/org/example/Main.java	(date 1702466771815)
+@@ -6,7 +6,7 @@
+     public static void main(String[] args) {
+         System.out.println("VÅR GRUPPUPPGIFT TOMTENSVERKSTAD");
+         Login login = new Login();
+-        FileHandler fileHandler = new FileHandler();
++       //FileHandler fileHandler = new FileHandler();
+ 
+ 
+     }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"7c4af593-c9e3-497a-b7bf-ad69973bac54\" name=\"Changes\" comment=\"Justerat den grafiska delen.\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/LagerCheck.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/LagerCheck.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/org/example/LagerCheck.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/org/example/LagerCheck.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wish_list_for_kids.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wish_list_for_kids.txt\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2Yqj1EXewq5MutIqskB2cFYWynN\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master--Test-run&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Skolan/Java/PokemonProject&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"7c4af593-c9e3-497a-b7bf-ad69973bac54\" name=\"Changes\" comment=\"\" />\r\n      <created>1701259786447</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1701259786447</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00001\" summary=\"Jag har fixat så att man kan spara ner ändringar i listan. Vad jag gjorde var att när wishlist fönstret öppnas så skapas det en temporär fil. När man ska spara ner så sparas allt till temp filen (&quot;wish_list_temp.txt&quot;), sedan tar man bort den gamla filen (&quot;wish_list.txt&quot;) och byter namn på på dem. Gjort så att man efter man sparat automatiskt loggas ut och kommer tillbaka till loginskärmen. &#10;&#10;Sedan har jag också gjort att när man lägger till element i önskelistan så läggs den också till/Tas bort i Arrayen vilket den inte gjorde innan, vilket ledde till att det inte sparades ner ordentligt. Nu är det problemet löst.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1701374196948</created>\r\n      <option name=\"number\" value=\"LOCAL−00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00001\" />\r\n      <updated>1701374196948</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00002\" summary=\"Save funktionen fullt gjort. Har gjort lite ändringar i wishlist klassen samt lagt in lite kommentarer så man har lite mer förståelse över vad som händer i save funktionen osv.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1701763058435</created>\r\n      <option name=\"number\" value=\"LOCAL−00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00002\" />\r\n      <updated>1701763058435</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00003\" summary=\"Ändrade så man nu bara kan önska sig en sorts julklapp. La också till lite fler saker man kan önska sig.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702142788519</created>\r\n      <option name=\"number\" value=\"LOCAL−00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00003\" />\r\n      <updated>1702142788519</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00004\" summary=\"Jag har lagt till en ny form och klass som heter LagerCheck. För att den ska synas så klickar man på &quot;Lager&quot; knappen i tomtens view så står det önskningarna barnen har och en text jämte ifall dessa önskningarna finns i lager eller ej.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702377426705</created>\r\n      <option name=\"number\" value=\"LOCAL−00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00004\" />\r\n      <updated>1702377426705</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00005\" summary=\"Jag har lagt till en ny form och klass som heter LagerCheck. För att den ska synas så klickar man på &quot;Lager&quot; knappen i tomtens view så står det önskningarna barnen har och en text jämte ifall dessa önskningarna finns i lager eller ej.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702377489990</created>\r\n      <option name=\"number\" value=\"LOCAL−00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00005\" />\r\n      <updated>1702377489990</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00006\" summary=\"Jag har lagt till en ny form och klass som heter LagerCheck. För att den ska synas så klickar man på &quot;Lager&quot; knappen i tomtens view så står det önskningarna barnen har och en text jämte ifall dessa önskningarna finns i lager eller ej.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702377693934</created>\r\n      <option name=\"number\" value=\"LOCAL−00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00006\" />\r\n      <updated>1702377693934</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00007\" summary=\"Justerat den grafiska delen.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702387708215</created>\r\n      <option name=\"number\" value=\"LOCAL−00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00007\" />\r\n      <updated>1702387708216</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Jag har fixat så att man kan spara ner ändringar i listan. Vad jag gjorde var att när wishlist fönstret öppnas så skapas det en temporär fil. När man ska spara ner så sparas allt till temp filen (&quot;wish_list_temp.txt&quot;), sedan tar man bort den gamla filen (&quot;wish_list.txt&quot;) och byter namn på på dem. Gjort så att man efter man sparat automatiskt loggas ut och kommer tillbaka till loginskärmen. &#10;&#10;Sedan har jag också gjort att när man lägger till element i önskelistan så läggs den också till/Tas bort i Arrayen vilket den inte gjorde innan, vilket ledde till att det inte sparades ner ordentligt. Nu är det problemet löst.\" />\r\n    <MESSAGE value=\"Save funktionen fullt gjort. Har gjort lite ändringar i wishlist klassen samt lagt in lite kommentarer så man har lite mer förståelse över vad som händer i save funktionen osv.\" />\r\n    <MESSAGE value=\"Ändrade så man nu bara kan önska sig en sorts julklapp. La också till lite fler saker man kan önska sig.\" />\r\n    <MESSAGE value=\"Jag har lagt till en ny form och klass som heter LagerCheck. För att den ska synas så klickar man på &quot;Lager&quot; knappen i tomtens view så står det önskningarna barnen har och en text jämte ifall dessa önskningarna finns i lager eller ej.\" />\r\n    <MESSAGE value=\"Justerat den grafiska delen.\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Justerat den grafiska delen.\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-method\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>\r\n          <line>127</line>\r\n          <properties method=\"actionPerformed\">\r\n            <option name=\"EMULATED\" value=\"true\" />\r\n            <option name=\"WATCH_EXIT\" value=\"false\" />\r\n          </properties>\r\n          <option name=\"timeStamp\" value=\"7\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-method\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>\r\n          <line>146</line>\r\n          <properties method=\"actionPerformed\">\r\n            <option name=\"EMULATED\" value=\"true\" />\r\n            <option name=\"WATCH_EXIT\" value=\"false\" />\r\n          </properties>\r\n          <option name=\"timeStamp\" value=\"8\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>\r\n          <line>148</line>\r\n          <option name=\"timeStamp\" value=\"9\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 24d406eadcd7f93c10c87840c09cd96526e97a6a)
++++ b/.idea/workspace.xml	(date 1702467016781)
+@@ -5,10 +5,11 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="7c4af593-c9e3-497a-b7bf-ad69973bac54" name="Changes" comment="Justerat den grafiska delen.">
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LagerCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LagerCheck.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/LagerCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/LagerCheck.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wish_list_for_kids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wish_list_for_kids.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist$3.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/wish_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wish_list.txt" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -41,14 +42,23 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;master--Test-run&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Skolan/Java/PokemonProject&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "git-widget-placeholder": "master",
++    "last_opened_file_path": "C:/Skolan/Java/PokemonProject"
+   }
+-}</component>
++}]]></component>
++  <component name="RunManager">
++    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
++      <module name="TomtensVerkstad" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -124,7 +134,7 @@
+         <line-breakpoint enabled="true" type="java-method">
+           <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>
+           <line>127</line>
+-          <properties method="actionPerformed">
++          <properties class="org.example.Wishlist">
+             <option name="EMULATED" value="true" />
+             <option name="WATCH_EXIT" value="false" />
+           </properties>
+@@ -133,7 +143,7 @@
+         <line-breakpoint enabled="true" type="java-method">
+           <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>
+           <line>146</line>
+-          <properties method="actionPerformed">
++          <properties class="org.example.Wishlist">
+             <option name="EMULATED" value="true" />
+             <option name="WATCH_EXIT" value="false" />
+           </properties>
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_X\" default=\"true\" project-jdk-name=\"21\" project-jdk-type=\"JavaSDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 24d406eadcd7f93c10c87840c09cd96526e97a6a)
++++ b/.idea/misc.xml	(date 1702466626096)
+@@ -8,5 +8,5 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="21" project-jdk-type="JavaSDK" />
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK" />
+ </project>
+\ No newline at end of file
