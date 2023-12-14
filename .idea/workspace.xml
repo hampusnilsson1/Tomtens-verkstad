@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c4af593-c9e3-497a-b7bf-ad69973bac54" name="Changes" comment="Justerat den grafiska delen.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LagerCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LagerCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/LagerCheck$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/LagerCheck$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/LagerCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/LagerCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/MusicPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/MusicPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wish_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wish_list.txt" afterDir="false" />
-    </list>
+    <list default="true" id="7c4af593-c9e3-497a-b7bf-ad69973bac54" name="Changes" comment="Löst LagerStatus." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master--Test-run" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,7 +40,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "master--save",
     "last_opened_file_path": "C:/Skolan/Java/PokemonProject"
   }
 }]]></component>
@@ -115,7 +102,14 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1702387708216</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Löst LagerStatus.">
+      <option name="closed" value="true" />
+      <created>1702552066308</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1702552066308</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -124,7 +118,8 @@
     <MESSAGE value="Ändrade så man nu bara kan önska sig en sorts julklapp. La också till lite fler saker man kan önska sig." />
     <MESSAGE value="Jag har lagt till en ny form och klass som heter LagerCheck. För att den ska synas så klickar man på &quot;Lager&quot; knappen i tomtens view så står det önskningarna barnen har och en text jämte ifall dessa önskningarna finns i lager eller ej." />
     <MESSAGE value="Justerat den grafiska delen." />
-    <option name="LAST_COMMIT_MESSAGE" value="Justerat den grafiska delen." />
+    <MESSAGE value="Löst LagerStatus." />
+    <option name="LAST_COMMIT_MESSAGE" value="Löst LagerStatus." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -151,11 +146,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>
           <line>148</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/LagerCheck.java</url>
-          <line>125</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
