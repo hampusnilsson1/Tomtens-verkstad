@@ -4,7 +4,6 @@ package org.example;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
 import java.util.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -21,6 +20,7 @@ public class Login {
     private JButton registreraButton;
     private JLabel loginMessage;
     private JPasswordField passwordField1;
+    private JRadioButton mute;
     private String adminUserName = "Julen";
     private String adminPassword = "2023";
 
@@ -83,7 +83,7 @@ public class Login {
         }
     }
 
-    MusicPlayer musicPlayer = new MusicPlayer();
+    MusicPlayer musicPlayer=new MusicPlayer();
 
     public Login() {
         logInFrame = new JFrame();
@@ -128,6 +128,16 @@ public class Login {
         });
 
 
+        mute.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if(mute.isSelected()){
+                    musicPlayer.stopMusic();
+                }else{
+                    musicPlayer.startMusic();
+                }
 
+            }
+        });
     }
 }
