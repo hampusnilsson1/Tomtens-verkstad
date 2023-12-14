@@ -14,6 +14,7 @@ public class Wishlist {
 
     private DefaultListModel<String> listModel;     //List were the kids wishes are listed.
     private DefaultListModel<String> availableWishes; //List were all the available wishes the kids can chose from are shown.
+    MusicPlayer musicPlayer;
 
     JFrame wishList;
     private JPanel panel1;
@@ -32,7 +33,8 @@ public class Wishlist {
     ArrayList<String> tempArray = new ArrayList<>(); // An empty array that is used for saving. When pressing save the JList (listmodel) is
                                                         // loaded on to the array. After that the filewriter reads it into the csv file.
 
-    MusicPlayer musicPlayer;
+
+
     public Wishlist(String enteredUsername, MusicPlayer musicPlayer) {
         this.musicPlayer= musicPlayer;
         wishList = new JFrame();
@@ -40,6 +42,9 @@ public class Wishlist {
         wishList.setVisible(true);
         wishList.setContentPane(panel1);
         wishList.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        this.musicPlayer = musicPlayer;
+
+        musicPlayer.stopMusic();
 
 
 

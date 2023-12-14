@@ -20,8 +20,6 @@ public class MusicPlayer {
         } catch (LineUnavailableException e) {
             throw new RuntimeException(e);
         }
-
-
     }
     public void stopMusic(){
         clip.stop();
