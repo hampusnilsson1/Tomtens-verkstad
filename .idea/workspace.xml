@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fe05f06-74b3-408f-a958-9a26fa839d42" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-12-13_13_39__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-12-13_13_39__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-12-13_17_34__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Login.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TomtensView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TomtensView.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TomtensView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TomtensView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Wishlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/LagerCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/LagerCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wish_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wish_list.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +16,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2ZX2BnxIKebNEUh2UBnOyWJY8hi" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Lotta"
   }
 }]]></component>
@@ -48,7 +47,15 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fe05f06-74b3-408f-a958-9a26fa839d42" name="Changes" comment="" />
+      <created>1702553973806</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702553973806</updated>
+    </task>
     <servers />
   </component>
 </project>
