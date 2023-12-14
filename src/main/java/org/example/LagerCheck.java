@@ -125,6 +125,9 @@ public class LagerCheck {
         //För att fylla ut alla JLabels i vänstra halvan där alla önskningarna ska stå.
         for (int i = 0; i < wishesListModel.size() && i < 10; i++) {
             String wish = (String) wishesListModel.get(i);
+            wish = wish.replaceAll(" håller nu på att skickas.", "");
+            wish = wish.replaceAll(" är nu skickad!", "");
+            System.out.println(wish);
             JLabel wishLabel = (JLabel) getComponentByName("wish" + (i + 1));
             wishLabel.setText(wish);
         }
