@@ -22,7 +22,7 @@ public class Lager extends JFrame{
         wishNames = new ArrayList<>();
         LagerVeiwFrame = new JFrame();
         LagerVeiwFrame.pack();
-        LagerVeiwFrame.setSize(500, 400);
+        LagerVeiwFrame.setSize(500, 500);
         LagerVeiwFrame.setVisible(true);
         LagerVeiwFrame.setContentPane(WarehousePannel);
         LagerVeiwFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
