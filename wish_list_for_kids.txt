@@ -1,21 +1,21 @@
 1,Nallebjörn,20
-2,Fotboll,30
-3,iPad,25
-4,Actionfigur,40
+2,Fotboll,29
+3,iPad,24
+4,Actionfigur,39
 5,Sminkset,15
-5,Sockar,40
-6,Docka,30
-7,Spelkonsol,10
-8,Nimbus 2000,0
-9,iPhone, 20
-10,Stickad Tröja,5000
-11,Halsband,8
-12,Armbandsur,5
-13,TV-Spel,10
-14,Bok,20
-15,Parfym,4
-16,Skridskor,11
-17,Jacka,25
-18,Hörlurar,10
-19,Sällskapspel,20
-20,Frimärken,15
+6,Sockar,39
+7,Docka,30
+8,Spelkonsol,10
+9,Nimbus 2000,0
+10,iPhone,20
+11,Stickad Tröja,5000
+12,Halsband,8
+13,Armbandsur,5
+14,TV-Spel,10
+15,Bok,20
+16,Parfym,4
+17,Skridskor,11
+18,Jacka,25
+19,Hörlurar,10
+20,Sällskapspel,20
+21,Frimärken,15

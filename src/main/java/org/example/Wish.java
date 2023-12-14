@@ -15,23 +15,13 @@ public class Wish {
         this.quantity = quantity;
     }
 
-    public void printWishes(){
-        System.out.println(wishId + ". "+ wishName );
-    }
-    public int getWishId() {
-        return wishId;
-    }
-
-    public void setWishId(int wishId) {
-        this.wishId = wishId;
-    }
-
     public String getWishName() {
         return wishName;
     }
 
-    public void setWishName(String wishName) {
-        this.wishName = wishName;
+    public String getWishCSV()
+    {
+        return (wishId+","+wishName+","+quantity);
     }
 
     public int getQuantity() {
