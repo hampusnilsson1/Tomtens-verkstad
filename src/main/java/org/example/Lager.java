@@ -1,6 +1,8 @@
 package org.example;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Objects;
@@ -10,7 +12,7 @@ public class Lager extends JFrame{
     JFrame LagerVeiwFrame;
     private JPanel LagerVeiw;
     private JList WarehouseList;
-    private JButton button1;
+    private JButton closebtn;
     private JPanel WarehousePannel;
     private JList AmountList;
     private ArrayList<String> wishNames;
@@ -74,6 +76,12 @@ public class Lager extends JFrame{
         }
 
 
+        closebtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                LagerVeiwFrame.dispose();
+            }
+        });
     }
     public void SendPresents() throws FileNotFoundException {
         Scanner main = new Scanner(new File("wish_list_for_kids.txt"));

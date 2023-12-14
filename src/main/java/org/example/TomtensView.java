@@ -225,9 +225,6 @@ public class TomtensView extends JFrame{
                 }
             }
             bufferedWriter.close();
-
-
-
         } catch (IOException e) {
 
         }
