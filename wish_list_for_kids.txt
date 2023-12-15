@@ -1,6 +1,6 @@
 1,Nallebjörn,20
 2,Fotboll,29
-3,iPad,24
+3,iPad,0
 4,Actionfigur,39
 5,Sminkset,15
 6,Sockar,39
@@ -11,7 +11,7 @@
 11,Stickad Tröja,5000
 12,Halsband,8
 13,Armbandsur,5
-14,TV-Spel,10
+14,TV-Spel,0
 15,Bok,20
 16,Parfym,4
 17,Skridskor,11

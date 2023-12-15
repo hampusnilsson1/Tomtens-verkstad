@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c4af593-c9e3-497a-b7bf-ad69973bac54" name="Changes" comment="Löst LagerStatus." />
+    <list default="true" id="7c4af593-c9e3-497a-b7bf-ad69973bac54" name="Changes" comment="Löst LagerStatus.">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-12-13_13_39__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-12-13_13_39__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-12-13_17_34__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-12-13_17_34__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kids.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Kids.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Lager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Lager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/LagerCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/LagerCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TomtensView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TomtensView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Wishlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Wishlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wish_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wish_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wish_list_for_kids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wish_list_for_kids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wish_list_temp.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +49,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="master--save" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,14 +65,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master--save",
-    "last_opened_file_path": "C:/Skolan/Java/PokemonProject"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Skolan/Java/PokemonProject&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -109,7 +138,14 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1702552066308</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="Löst LagerStatus.">
+      <option name="closed" value="true" />
+      <created>1702556591937</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1702556591937</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -126,7 +162,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>
-          <line>127</line>
+          <line>132</line>
           <properties class="org.example.Wishlist">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -135,7 +171,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>
-          <line>146</line>
+          <line>151</line>
           <properties class="org.example.Wishlist">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -144,7 +180,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Wishlist.java</url>
-          <line>148</line>
+          <line>153</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>

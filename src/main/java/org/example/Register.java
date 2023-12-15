@@ -109,6 +109,7 @@ public class Register {
     private void showMessage(String title, String message,boolean close) {
         JOptionPane.showMessageDialog(RegisterFrame, message, title, JOptionPane.INFORMATION_MESSAGE);
         if(close){
+            new Login();
             RegisterFrame.dispose();
         }
     }

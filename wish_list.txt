@@ -1,10 +1,9 @@
-freddan123,Sminkset,true,iPhone,false,Spelkonsol,true,Fotboll,false,Nallebjörn,true,Stickad Tröja,false,iPad,false
+freddan123,Sminkset,false,iPhone,false,Spelkonsol,false,Fotboll,false,Nallebjörn,false,Stickad Tröja,false,iPad,false
 kalle,Sminkset,false,iPhone,false,Spelkonsol,false,Actionfigur,false,Fotboll,false,Sockar,false
-kulan,Sminkset,false,iPhone,false,Nimbus 2000,false,Fotboll,false,Sockar,false,iPad,false
+kulan,Sminkset,false,iPhone,false,Fotboll,false,Sockar,false,iPad,false,Sminkset,false,Nimbus 2000,false,Docka,false,TV-Spel,false,Bok,false
 gustav,iPhone,false,Spelkonsol,false,Fotboll,false,Nallebjörn,false,Docka,false
 niklas,iPhone,false,Spelkonsol,false,Actionfigur,false,Sockar,false,iPad,false
 kallekula,Nimbus 2000,false,Fotboll,false,Nallebjörn,false,Docka,false
-kulan123,Sminkset,false,Nimbus 2000,false,Actionfigur,false,Docka,false
 hejhopp,iPhone,false,Fotboll,false,Nallebjörn,false,Sockar,false,Stickad Tröja,false
 Lotta,Spelkonsol,false,Actionfigur,false,Sockar,false,Stickad Tröja,false,iPad,false
 Pelle,Sminkset,false,Spelkonsol,false,Fotboll,false,Stickad Tröja,false,iPad,false
@@ -48,3 +47,7 @@ Ben,Nimbus 2000,false,Fotboll,false,Nallebjörn,false,Sockar,false,iPad,false
 Eden,Sminkset,false,Actionfigur,false,Stickad Tröja,false,iPad,false,Docka,false
 Hanna,Sminkset,false,Fotboll,false,Nallebjörn,false,Stickad Tröja,false,iPad,false
 Hilda,Sminkset,false,Nimbus 2000,false,Fotboll,false,iPad,false,Docka,false
+Kasper,iPad,false,Actionfigur,false,Nimbus 2000,false,TV-Spel,false,Sällskapspel,false,Armbandsur,false,Sockar,false,Fotboll,false,Skridskor,false,Jacka,false
+Kasper2
+Kasper3
+Julia,Sminkset,false,Sockar,false,Docka,false,Spelkonsol,false,Nimbus 2000,false
