@@ -78,6 +78,8 @@
                     </constraints>
                     <properties>
                       <background color="-16756475"/>
+                      <focusPainted value="false"/>
+                      <focusable value="false"/>
                       <foreground color="-3627962"/>
                       <text value="Lager"/>
                     </properties>
@@ -102,6 +104,8 @@
                     </constraints>
                     <properties>
                       <background color="-16756475"/>
+                      <focusPainted value="false"/>
+                      <focusable value="false"/>
                       <foreground color="-3627962"/>
                       <text value="Lagerstatus"/>
                     </properties>
@@ -168,6 +172,8 @@
                     </constraints>
                     <properties>
                       <background color="-16756475"/>
+                      <focusPainted value="false"/>
+                      <focusable value="false"/>
                       <foreground color="-3627962"/>
                       <text value="Logga ut"/>
                     </properties>
@@ -203,6 +209,8 @@
                     <properties>
                       <actionCommand value=""/>
                       <background color="-16756475"/>
+                      <focusPainted value="false"/>
+                      <focusable value="false"/>
                       <foreground color="-3627962"/>
                       <label value="Skicka Julklapp"/>
                       <text value="Skicka Julklapp"/>
